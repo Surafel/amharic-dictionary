@@ -12,8 +12,17 @@ const List<String> dictionaryAssetPaths = [
 
 class DictionaryRepository {
   List<DictionaryEntry> _entries = const [];
+  final Set<String> _favoriteWords = {};
 
   List<DictionaryEntry> get entries => _entries;
+
+  bool isFavorite(String word) => _favoriteWords.contains(word);
+
+  void toggleFavorite(String word) {
+    if (!_favoriteWords.add(word)) {
+      _favoriteWords.remove(word);
+    }
+  }
 
   Future<void> load() async {
     final loaded = <DictionaryEntry>[];

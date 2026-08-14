@@ -11,6 +11,6 @@ void main() {
     await tester.pump();
 
     expect(find.byType(TextField), findsOneWidget);
-    expect(find.text('የአማርኛ መዝገበ ቃላት'), findsOneWidget);
+    expect(find.byIcon(Icons.menu), findsOneWidget);
   });
 }

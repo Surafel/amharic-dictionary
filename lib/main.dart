@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'screens/dictionary_home_screen.dart';
+import 'theme/app_colors.dart';
 
 void main() {
   runApp(const AmharicDictionaryApp());
@@ -14,7 +15,12 @@ class AmharicDictionaryApp extends StatelessWidget {
     return MaterialApp(
       title: 'የአማርኛ መዝገበ ቃላት',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: AppColors.tealMid,
+          primary: AppColors.navyDark,
+          secondary: AppColors.tealAccent,
+        ),
+        scaffoldBackgroundColor: Colors.white,
         fontFamily: 'NotoSansEthiopic',
         useMaterial3: true,
       ),
