@@ -80,6 +80,8 @@ flutter:
     - assets/audio/page_048/
     - assets/audio/page_049/
     - assets/audio/page_050/
+    - assets/audio/page_051/
+    - assets/audio/page_052/
 
   fonts:
     - family: NotoSansEthiopic
