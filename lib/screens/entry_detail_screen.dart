@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 
 import '../models/dictionary_entry.dart';
 import '../services/dictionary_repository.dart';
@@ -49,6 +50,25 @@ class EntryDetailScreen extends StatefulWidget {
 }
 
 class _EntryDetailScreenState extends State<EntryDetailScreen> {
+  final _tts = FlutterTts();
+
+  @override
+  void initState() {
+    super.initState();
+    _tts.setErrorHandler((_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('የድምጽ ንባብ በዚህ መሳሪያ ላይ አይገኝም')),
+      );
+    });
+  }
+
+  @override
+  void dispose() {
+    _tts.stop();
+    super.dispose();
+  }
+
   void _toggleFavorite() {
     setState(() => widget.repository.toggleFavorite(widget.entry.word));
   }
@@ -60,6 +80,22 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('ወደ ቅንጥብ ሰሌዳ ተቀድቷል')),
     );
+  }
+
+  Future<void> _pronounce() async {
+    try {
+      // Only switch to the Amharic voice if the device/browser actually
+      // has one; otherwise leave the default so speak() doesn't error
+      // out on a missing "am-ET" voice.
+      if (await _tts.isLanguageAvailable('am-ET') == true) {
+        await _tts.setLanguage('am-ET');
+      }
+    } catch (_) {
+      // isLanguageAvailable isn't implemented on every platform; fall
+      // through and just try to speak with whatever is set.
+    }
+    await _tts.stop();
+    await _tts.speak(widget.entry.word);
   }
 
   @override
@@ -116,6 +152,11 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      _HeroIconButton(
+                        icon: Icons.volume_up_rounded,
+                        onTap: _pronounce,
+                      ),
+                      const SizedBox(width: 20),
                       _HeroIconButton(
                         icon: isFavorite
                             ? Icons.bookmark
