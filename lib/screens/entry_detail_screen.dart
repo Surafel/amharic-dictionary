@@ -1,8 +1,6 @@
-import 'dart:async';
-
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_tts/flutter_tts.dart';
 
 import '../models/dictionary_entry.dart';
 import '../services/dictionary_repository.dart';
@@ -52,39 +50,11 @@ class EntryDetailScreen extends StatefulWidget {
 }
 
 class _EntryDetailScreenState extends State<EntryDetailScreen> {
-  final _tts = FlutterTts();
-  bool _speechStarted = false;
-
-  @override
-  void initState() {
-    super.initState();
-    _tts.setErrorHandler((_) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('የድምጽ ንባብ በዚህ መሳሪያ ላይ አይገኝም')),
-      );
-    });
-    _tts.setStartHandler(() => _speechStarted = true);
-    // Detect the Amharic voice ahead of time, off the tap path: some
-    // browsers (notably iOS Safari) can hang waiting on this, and any
-    // await before speak() risks losing the user-gesture context that
-    // iOS requires for audio to actually play.
-    unawaited(
-      _tts
-          .isLanguageAvailable('am-ET')
-          .timeout(const Duration(seconds: 2), onTimeout: () => false)
-          .then((available) {
-            if (available == true) {
-              _tts.setLanguage('am-ET');
-            }
-          })
-          .catchError((_) {}),
-    );
-  }
+  final _player = AudioPlayer();
 
   @override
   void dispose() {
-    _tts.stop();
+    _player.dispose();
     super.dispose();
   }
 
@@ -101,23 +71,20 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
     );
   }
 
-  void _pronounce() {
-    // Call stop()/speak() directly, with no await beforehand: iOS Safari
-    // only allows speechSynthesis to produce audio when speak() is
-    // invoked synchronously inside the tap handler that triggered it.
-    _speechStarted = false;
-    unawaited(_tts.stop());
-    unawaited(_tts.speak(widget.entry.word));
-    // Some platforms (notably iOS home-screen web apps) can silently no-op
-    // speak() with no error at all, so give honest feedback either way.
-    Future.delayed(const Duration(seconds: 2), () {
-      if (_speechStarted || !mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('ይህ መሳሪያ/ሁነታ ድምጽ ንባብን አይደግፍም'),
-        ),
-      );
-    });
+  Future<void> _pronounce() async {
+    final audio = widget.entry.audio;
+    if (audio == null) return;
+    try {
+      await _player.stop();
+      // AudioCache resolves asset paths relative to "assets/", so strip
+      // that prefix from the stored path.
+      await _player.play(AssetSource(audio.replaceFirst('assets/', '')));
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('ድምጹን ማጫወት አልተቻለም')));
+    }
   }
 
   @override
@@ -174,11 +141,13 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      _HeroIconButton(
-                        icon: Icons.volume_up_rounded,
-                        onTap: _pronounce,
-                      ),
-                      const SizedBox(width: 20),
+                      if (entry.audio != null) ...[
+                        _HeroIconButton(
+                          icon: Icons.volume_up_rounded,
+                          onTap: _pronounce,
+                        ),
+                        const SizedBox(width: 20),
+                      ],
                       _HeroIconButton(
                         icon: isFavorite
                             ? Icons.bookmark

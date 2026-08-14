@@ -31,6 +31,7 @@ a standalone app; otherwise it just works as a regular web page.
 ## Features
 - Search dictionary entries by Amharic word
 - Tap an entry to see its full definition
+- Hear the headword pronounced (bundled audio clip, works fully offline)
 - Bookmark entries and copy a word + definition to the clipboard
 - Works offline once installed (data is bundled with the app)
 
@@ -43,3 +44,16 @@ flutter run -d chrome   # or -d <android-device-id>
 
 Dictionary data lives in `assets/dictionary/`, one JSON file per source
 page, listed in `lib/services/dictionary_repository.dart`.
+
+Pronunciation clips are pre-generated (not synthesized live on-device,
+since device/browser TTS voice support for Amharic is unreliable —
+notably broken on iOS Safari) with `espeak-ng`'s Amharic voice and
+bundled as mp3 assets under `assets/audio/<page>/`. To (re)generate a
+page's clips after editing its JSON:
+
+```
+python3 tool/generate_audio.py assets/dictionary/page_033.json
+```
+
+Requires `espeak-ng` and `ffmpeg` on PATH. This writes an `audio` field
+into each entry pointing at its clip.
