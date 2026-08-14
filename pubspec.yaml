@@ -92,6 +92,8 @@ flutter:
     - assets/audio/page_060/
     - assets/audio/page_061/
     - assets/audio/page_062/
+    - assets/audio/page_063/
+    - assets/audio/page_064/
 
   fonts:
     - family: NotoSansEthiopic
