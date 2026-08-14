@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -61,6 +63,21 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
         const SnackBar(content: Text('የድምጽ ንባብ በዚህ መሳሪያ ላይ አይገኝም')),
       );
     });
+    // Detect the Amharic voice ahead of time, off the tap path: some
+    // browsers (notably iOS Safari) can hang waiting on this, and any
+    // await before speak() risks losing the user-gesture context that
+    // iOS requires for audio to actually play.
+    unawaited(
+      _tts
+          .isLanguageAvailable('am-ET')
+          .timeout(const Duration(seconds: 2), onTimeout: () => false)
+          .then((available) {
+            if (available == true) {
+              _tts.setLanguage('am-ET');
+            }
+          })
+          .catchError((_) {}),
+    );
   }
 
   @override
@@ -82,20 +99,12 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
     );
   }
 
-  Future<void> _pronounce() async {
-    try {
-      // Only switch to the Amharic voice if the device/browser actually
-      // has one; otherwise leave the default so speak() doesn't error
-      // out on a missing "am-ET" voice.
-      if (await _tts.isLanguageAvailable('am-ET') == true) {
-        await _tts.setLanguage('am-ET');
-      }
-    } catch (_) {
-      // isLanguageAvailable isn't implemented on every platform; fall
-      // through and just try to speak with whatever is set.
-    }
-    await _tts.stop();
-    await _tts.speak(widget.entry.word);
+  void _pronounce() {
+    // Call stop()/speak() directly, with no await beforehand: iOS Safari
+    // only allows speechSynthesis to produce audio when speak() is
+    // invoked synchronously inside the tap handler that triggered it.
+    unawaited(_tts.stop());
+    unawaited(_tts.speak(widget.entry.word));
   }
 
   @override
