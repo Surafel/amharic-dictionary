@@ -53,6 +53,7 @@ class EntryDetailScreen extends StatefulWidget {
 
 class _EntryDetailScreenState extends State<EntryDetailScreen> {
   final _tts = FlutterTts();
+  bool _speechStarted = false;
 
   @override
   void initState() {
@@ -63,6 +64,7 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
         const SnackBar(content: Text('የድምጽ ንባብ በዚህ መሳሪያ ላይ አይገኝም')),
       );
     });
+    _tts.setStartHandler(() => _speechStarted = true);
     // Detect the Amharic voice ahead of time, off the tap path: some
     // browsers (notably iOS Safari) can hang waiting on this, and any
     // await before speak() risks losing the user-gesture context that
@@ -103,8 +105,19 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
     // Call stop()/speak() directly, with no await beforehand: iOS Safari
     // only allows speechSynthesis to produce audio when speak() is
     // invoked synchronously inside the tap handler that triggered it.
+    _speechStarted = false;
     unawaited(_tts.stop());
     unawaited(_tts.speak(widget.entry.word));
+    // Some platforms (notably iOS home-screen web apps) can silently no-op
+    // speak() with no error at all, so give honest feedback either way.
+    Future.delayed(const Duration(seconds: 2), () {
+      if (_speechStarted || !mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('ይህ መሳሪያ/ሁነታ ድምጽ ንባብን አይደግፍም'),
+        ),
+      );
+    });
   }
 
   @override
