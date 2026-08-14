@@ -8,6 +8,7 @@ import '../models/dictionary_entry.dart';
 /// Add the next page's asset path here once it has been transcribed.
 const List<String> dictionaryAssetPaths = [
   'assets/dictionary/page_033.json',
+  'assets/dictionary/page_034.json',
 ];
 
 class DictionaryRepository {
