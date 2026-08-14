@@ -1,16 +1,45 @@
-# amharic_dictionary
+# የአማርኛ መዝገበ ቃላት — Amharic Dictionary
 
-A new Flutter project.
+An offline Amharic-to-Amharic dictionary app: look up a word and get its
+definition, written entirely in Amharic — built with Flutter, ships as an
+installable web app (PWA) and as an Android app.
 
-## Getting Started
+Dictionary entries are transcribed from a printed Amharic dictionary book.
+This is an early build seeded with page 33 (41 entries starting at the
+letter ሀ) while the extraction process is being refined; more pages will be
+added over time.
 
-This project is a starting point for a Flutter application.
+## Install
 
-A few resources to get you started if this is your first Flutter project:
+### Android
+1. Download `app-release.apk` from the
+   [latest release](https://github.com/Surafel/amharic-dictionary/releases/latest).
+2. Open the downloaded file on your device to install it.
+3. If prompted, allow installing apps from this source (Android blocks
+   installs from outside the Play Store by default).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### iPhone (or any browser)
+1. Open **https://surafel.github.io/amharic-dictionary/** in Safari.
+2. Tap the **Share** button, then **Add to Home Screen**.
+3. The app icon appears on your home screen and opens like a normal app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Any desktop/Android browser
+Open **https://surafel.github.io/amharic-dictionary/** — most browsers
+(Chrome, Edge) will show an **Install** icon in the address bar to add it as
+a standalone app; otherwise it just works as a regular web page.
+
+## Features
+- Search dictionary entries by Amharic word
+- Tap an entry to see its full definition
+- Bookmark entries and copy a word + definition to the clipboard
+- Works offline once installed (data is bundled with the app)
+
+## Development
+
+```
+flutter pub get
+flutter run -d chrome   # or -d <android-device-id>
+```
+
+Dictionary data lives in `assets/dictionary/`, one JSON file per source
+page, listed in `lib/services/dictionary_repository.dart`.
