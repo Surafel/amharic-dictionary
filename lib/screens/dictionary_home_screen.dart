@@ -38,14 +38,14 @@ class _DictionaryHomeScreenState extends State<DictionaryHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: AppColors.parchment,
       drawer: _AppDrawer(entryCount: _repository.entries.length),
       body: Column(
         children: [
           _SearchAppBar(controller: _controller, onChanged: _onQueryChanged),
           Container(
             width: double.infinity,
-            color: AppColors.tealMid,
+            color: AppColors.goldMid,
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
             child: Text(
               _loading
@@ -81,7 +81,7 @@ class _DictionaryHomeScreenState extends State<DictionaryHomeScreen> {
                         fontFamily: 'NotoSerifEthiopic',
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
-                        color: AppColors.navyDark,
+                        color: AppColors.bookBrown,
                       ),
                     ),
                     subtitle: Text(
@@ -120,7 +120,7 @@ class _SearchAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: AppColors.navyDark,
+      color: AppColors.bookBrown,
       padding: EdgeInsets.fromLTRB(
         12,
         MediaQuery.of(context).padding.top + 10,
@@ -148,7 +148,7 @@ class _SearchAppBar extends StatelessWidget {
                 textAlignVertical: TextAlignVertical.center,
                 decoration: const InputDecoration(
                   hintText: 'ቃል ይፈልጉ...',
-                  prefixIcon: Icon(Icons.search, color: AppColors.tealMid),
+                  prefixIcon: Icon(Icons.search, color: AppColors.goldMid),
                   border: InputBorder.none,
                   contentPadding: EdgeInsets.symmetric(vertical: 10),
                 ),
@@ -170,12 +170,12 @@ class _AppDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Colors.white,
+      backgroundColor: AppColors.parchment,
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
           Container(
-            color: AppColors.navyDark,
+            color: AppColors.bookBrown,
             padding: const EdgeInsets.fromLTRB(20, 56, 20, 24),
             width: double.infinity,
             child: const Column(
@@ -203,11 +203,11 @@ class _AppDrawer extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: const Icon(Icons.menu_book, color: AppColors.tealMid),
+            leading: const Icon(Icons.menu_book, color: AppColors.goldMid),
             title: Text('$entryCount ቃላት ተመዝግበዋል'),
           ),
           const ListTile(
-            leading: Icon(Icons.info_outline, color: AppColors.tealMid),
+            leading: Icon(Icons.info_outline, color: AppColors.goldMid),
             title: Text('ምንጭ: የአማርኛ መዝገበ ቃላት መጽሐፍ (ገጽ 33)'),
           ),
         ],

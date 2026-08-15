@@ -16,11 +16,11 @@ class AmharicDictionaryApp extends StatelessWidget {
       title: 'የአማርኛ መዝገበ ቃላት',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: AppColors.tealMid,
-          primary: AppColors.navyDark,
-          secondary: AppColors.tealAccent,
+          seedColor: AppColors.goldMid,
+          primary: AppColors.bookBrown,
+          secondary: AppColors.goldAccent,
         ),
-        scaffoldBackgroundColor: Colors.white,
+        scaffoldBackgroundColor: AppColors.parchment,
         fontFamily: 'NotoSansEthiopic',
         useMaterial3: true,
       ),

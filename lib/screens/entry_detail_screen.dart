@@ -94,7 +94,7 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
     final senses = _parseSenses(entry.meaning);
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: AppColors.parchment,
       body: CustomScrollView(
         slivers: [
           SliverToBoxAdapter(
@@ -104,7 +104,7 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
-                  colors: [AppColors.navyDark, AppColors.tealMid],
+                  colors: [AppColors.bookBrown, AppColors.goldMid],
                 ),
               ),
               padding: EdgeInsets.fromLTRB(
@@ -172,7 +172,7 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
                 const Text(
                   'ትርጉም',
                   style: TextStyle(
-                    color: AppColors.navyDark,
+                    color: AppColors.bookBrown,
                     fontWeight: FontWeight.bold,
                     fontSize: 22,
                   ),
@@ -201,7 +201,7 @@ class _EntryDetailScreenState extends State<EntryDetailScreen> {
                               style: const TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.bold,
-                                color: AppColors.tealAccent,
+                                color: AppColors.goldAccent,
                               ),
                             ),
                           ),
