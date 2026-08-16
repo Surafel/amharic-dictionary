@@ -1,0 +1,242 @@
+[
+  {
+    "word": "ተመሳሰለ",
+    "meaning": "ግ በመልክ፣ በመጠን፣በባህርይ፣...ተቀራረበ፣ አንድ ሆነ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/001.mp3"
+  },
+  {
+    "word": "ተመሳሳይ",
+    "meaning": "ት በመልክ፣ በመጠን፣በባህርይ፣...የተቀራረበ፣ አንድ የሆነ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/002.mp3"
+  },
+  {
+    "word": "ተማሰለ",
+    "meaning": "ግ ተደበላለቀ፣ ተቀላቀለ፣ ተዋሃደ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/003.mp3"
+  },
+  {
+    "word": "አመሰለ¹",
+    "meaning": "ግ በሌላው ላይ ክፉ ተመኘ (ላይተኩስ ጠመንጃ ደግነበት/ ላይመታው ዱላ ቃጣበት)።",
+    "page": 80,
+    "audio": "assets/audio/page_080/004.mp3"
+  },
+  {
+    "word": "እያምስልና",
+    "meaning": "እውነት እያደረገውና፣ እያደረሰና።",
+    "page": 80,
+    "audio": "assets/audio/page_080/005.mp3"
+  },
+  {
+    "word": "አመሰለ²",
+    "meaning": "ግ 1. ተመሳሳይ፣ ተቀራራቢ ወይም አንድ አይነት አደረገ። በሬት ከተሰራው ጋር አመሳሰለህ ስራልኝ። 2. አነፃፀረ፣ አወዳደረ። ኢትዮጵያንና አሜሪካን በኢኮኖሚ ደረጃ ማመሳሰል አይቻልም።",
+    "page": 80,
+    "audio": "assets/audio/page_080/006.mp3"
+  },
+  {
+    "word": "አማሰለ",
+    "meaning": "ግ አደበላለቀ፣ አቀላቀለ፣ አዋሃደ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/007.mp3"
+  },
+  {
+    "word": "ማማሰያ",
+    "meaning": "ስ ወጥ፣ ገንፎ፣...ሲሰራ ለማማሰል የሚያገለግል ቀጠን ያለ እንጨት።",
+    "page": 80,
+    "audio": "assets/audio/page_080/008.mp3"
+  },
+  {
+    "word": "አምሳል",
+    "meaning": "ስ የአንድ ነገር ተመሳሳይ፣ አምሳያ፣ ምሳሌ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/009.mp3"
+  },
+  {
+    "word": "አምሳያ",
+    "meaning": "ት በመልክ፣ በቀለም፣...ሌላውን የሚመስል፣ ከሌላው ጋር የሚመሳሰል። አምሳያ ልጅ ናት።",
+    "page": 80,
+    "audio": "assets/audio/page_080/010.mp3"
+  },
+  {
+    "word": "አስመሰለ",
+    "meaning": "ግ 1. ያልሆነና ያልተደረገ ነገርን እንደሆነ፣ እንደተደረገ አድርጎ አቀረበ። 2. ተመሳሳይ፣ ተቀራራቢ አንድ አይነት አደረገ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/011.mp3"
+  },
+  {
+    "word": "አያስመስልብህና",
+    "meaning": "አያምጣብህ፣ አያድርስብህና (ክፉ ነገር)።",
+    "page": 80,
+    "audio": "assets/audio/page_080/012.mp3"
+  },
+  {
+    "word": "አስመሳይ",
+    "meaning": "ት ያልሆነውን ያልተደረገውን እንደሆነ፣ እንደተደረገ አድርጎ የሚያቀርብ ውሸታም፣ አታላይ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/013.mp3"
+  },
+  {
+    "word": "መስለቂያ",
+    "meaning": "\"ስለቀ\" ስር ተመ.",
+    "page": 80,
+    "audio": "assets/audio/page_080/014.mp3"
+  },
+  {
+    "word": "መሰላል",
+    "meaning": "ስ ከፍ ወዳለ ቦታ (ቤት፣ ዛፍ፣...) ላይ ለመውጣትና ለመውረድ የሚያገለግል ደረጃ መሰል መረጋገጫዎች ያሉት ባለሁለት ወይም ባለአራት እግር እንጨት፣ ብረት፣ ገመድ፣...።",
+    "page": 80,
+    "audio": "assets/audio/page_080/015.mp3"
+  },
+  {
+    "word": "መሰረተ",
+    "meaning": "ግ አቆመ፣ ተከለ፣ አቋቋመ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/016.mp3"
+  },
+  {
+    "word": "መሰረት",
+    "meaning": "ስ 1. ከላይኛው የመሬት ክፍል በታች የሚሰራ የቤት፣ የህንፃ፣ የግንብ፣...መነሻ፣ መቆሚያ። 2. ውጭን፣ ጀምር። ነገሩ የተበላሸው ገና ከመሰረቱ ነው።",
+    "page": 80,
+    "audio": "assets/audio/page_080/017.mp3"
+  },
+  {
+    "word": "መሰረት ጣለ",
+    "meaning": "ጀመረ። ዳግማዊ አፄ ምንይልክ ለኢትዮጲያ የዘመናዊ ስልጣኔን መሰረት የጣሉ መሪ ናቸው።",
+    "page": 80,
+    "audio": "assets/audio/page_080/018.mp3"
+  },
+  {
+    "word": "መሰረተ ልማት",
+    "meaning": "ስ ለአንድ አገር ልማት በተቀዳሚነት አስፈላጊ የሆነ እንደመንገድና የትምህርት፣ የጤና ተቋም ያለ የህብረተሰቡ መገልገያ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/019.mp3"
+  },
+  {
+    "word": "መሰረት ቢስ",
+    "meaning": "ት ተጨባጭ ማስረጃ ወይም እውነትነት የሌለው። መሰረት ቢስ ወሬ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/020.mp3"
+  },
+  {
+    "word": "መሰረተ ትምህርት",
+    "meaning": "ስ ለመሃይምናን የሚሰጥ የመጀመሪያው የቀለም ትምህርት።",
+    "page": 80,
+    "audio": "assets/audio/page_080/021.mp3"
+  },
+  {
+    "word": "የመሰረት ድንጋይ",
+    "meaning": "ስ አንድ ድርጅት፣ ተቋም፣...ሲሰራ በታቀደበት ቦታ ላይ የተጋበዘው የከበር እንግዳ በመጀመሪያ የሚያኖረውና ለዚሁ ጉዳይ ተብሎ የተዘጋጀው የድንጋይ ምልክት።",
+    "page": 80,
+    "audio": "assets/audio/page_080/022.mp3"
+  },
+  {
+    "word": "መሰረታዊ",
+    "meaning": "ት ዋና፣ በጣም አስፈላጊ፤ ከሁሉም የሚቀድም።",
+    "page": 80,
+    "audio": "assets/audio/page_080/023.mp3"
+  },
+  {
+    "word": "መሰረታዊ ለውጥ",
+    "meaning": "ስ ስር ነቀል ለውጥ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/024.mp3"
+  },
+  {
+    "word": "መሰረቶች ጉባኤ[ስብሰባ]",
+    "meaning": "ስ አንድን ድርጅት፣ ማህበር፣...ለማቋቋም የሚደረግ የመጀመሪያ ስብሰባ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/025.mp3"
+  },
+  {
+    "word": "ምስረታ",
+    "meaning": "ስ አንድን ድርጅት፣ ማህበር፣...የማቋቋም ተግባር።",
+    "page": 80,
+    "audio": "assets/audio/page_080/026.mp3"
+  },
+  {
+    "word": "መስረ(መስርይ)",
+    "meaning": "ት በጣም ተንኮለኛ፣ ሽራኛ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/027.mp3"
+  },
+  {
+    "word": "መስርስርያ",
+    "meaning": "\"ስረሰረ\" ስር ተመ.",
+    "page": 80,
+    "audio": "assets/audio/page_080/028.mp3"
+  },
+  {
+    "word": "መስስ አለ",
+    "meaning": "ግ ቀስ፣ ዝግ ብሉ ሄደ ወይም መጣ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/029.mp3"
+  },
+  {
+    "word": "ምስቅልቅል",
+    "meaning": "ት ዝብርቅርቅ፣ ውጥንቅጥ የተመሳቃለ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/030.mp3"
+  },
+  {
+    "word": "ምስቅልቅል አለ",
+    "meaning": "ግ ተዘበራረቀ፣ ቅጥ አጣ፣ ተደባለቀ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/031.mp3"
+  },
+  {
+    "word": "ተመሳቀለ",
+    "meaning": "ግ ተደበላለቀ፣ ቅጥ አጣ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/032.mp3"
+  },
+  {
+    "word": "አመሳቃለ",
+    "meaning": "ግ አወሳሰበ፣ አደበላለቀ፣ ቅጥ አሳጣ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/033.mp3"
+  },
+  {
+    "word": "አመሳቀለ",
+    "meaning": "ግ አደባለቀ፣ ቅጥ አሳጣ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/034.mp3"
+  },
+  {
+    "word": "መሲታ",
+    "meaning": "ስ የጡር፣ የግፍ ንግግር። ተመቻችቶኛል ብለህ መሲታ አትናገር።",
+    "page": 80,
+    "audio": "assets/audio/page_080/035.mp3"
+  },
+  {
+    "word": "ተመሲታ",
+    "meaning": "ግ ተመዛደቀ።",
+    "page": 80,
+    "audio": "assets/audio/page_080/036.mp3"
+  },
+  {
+    "word": "መስቅስቂያ",
+    "meaning": "\"ስቀስቀ\" ስር ተመ.",
+    "page": 80,
+    "audio": "assets/audio/page_080/037.mp3"
+  },
+  {
+    "word": "መስብስቢያ",
+    "meaning": "\"ስበሰበ\" ስር ተመ.",
+    "page": 80,
+    "audio": "assets/audio/page_080/038.mp3"
+  },
+  {
+    "word": "መስነች",
+    "meaning": "ግ መከነች፣ አልወልድ አለች (ለቀንድ ከብት)።",
+    "page": 80,
+    "audio": "assets/audio/page_080/039.mp3"
+  },
+  {
+    "word": "መሲና",
+    "meaning": "ስ የማትወልድ (ላም፣ በግ፣...)።",
+    "page": 80,
+    "audio": "assets/audio/page_080/040.mp3"
+  }
+]
