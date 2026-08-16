@@ -64,5 +64,209 @@
     "meaning": "ስ እንደማረሻ፣ ቤላዋ፣...ያሉ የተለያዩ መሳሪያዎችን የሚሰሩ ባለሙያዎች ተፈላጊውን የብረት ቀራጭ ካጋሉ በሃላ በላይ ላይ አጋድመው የሚቀጠቀጡበትና ልዩ ልዩ ቅርፅ የሚያወጡበት ጠፍጠፍ ያለ ትልቅ ብረት።",
     "page": 83,
     "audio": "assets/audio/page_083/011.mp3"
+  },
+  {
+    "word": "መስፍን",
+    "meaning": "\"መሳፍንት\"ን ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/012.mp3"
+  },
+  {
+    "word": "መስብ",
+    "meaning": "ስ ከአክርማና ከስንደዶ የተሰፉ ለእንጀራ ማስቀመጫ ወይም ለመብያ የሚሆን የቤት እቃ (በተጨማሪ የስፈት እቃ ስር ተመ.)።",
+    "page": 83,
+    "audio": "assets/audio/page_083/013.mp3"
+  },
+  {
+    "word": "መስብ ወርቅ",
+    "meaning": "ስ ልዩ ልዩ ቀለማት ባላቸው አለላዎች ተጊጦ የተሰራና ረዝም ያለ እግር ያለው መሶብ (በተጨማሪ የስፈት እቃ ስር ተመ.)።",
+    "page": 83,
+    "audio": "assets/audio/page_083/014.mp3"
+  },
+  {
+    "word": "መሸ",
+    "meaning": "ግ ጠለመ፣ ማታ ሆነ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/015.mp3"
+  },
+  {
+    "word": "መሸ በከንቱ",
+    "meaning": "ፍሬ ያለው ነገር ሳይሰራ በከንቱ ሲያውደለድል ወይም በግዴለሽነት ጊዜውን የሚያሳልፍ ሰው።",
+    "page": 83,
+    "audio": "assets/audio/page_083/016.mp3"
+  },
+  {
+    "word": "መሸ አዳሪ",
+    "meaning": "ስ ቋሚ መኖሪያ የሌለውና በደረሰበት በታ የሚያድር ሰው።",
+    "page": 83,
+    "audio": "assets/audio/page_083/017.mp3"
+  },
+  {
+    "word": "ምሽት",
+    "meaning": "ስ ከፀሃይ ጥልቀት በሃላ ጨለማ እስክሚሆን ያለው ጊዜ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/018.mp3"
+  },
+  {
+    "word": "አመሸ",
+    "meaning": "ግ እስከ ምሽት ወይም እስከ ማታ ወይም እስከ ሌሊት ቆየ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/019.mp3"
+  },
+  {
+    "word": "ማምሽ",
+    "meaning": "ስ 1. የመኝታ ሰአት እስከሚደርስ ለማንደድ የሚለቀም የማገዶ እንጨት (ብዙውን ጊዜ በገጠር አካባቢ)። 2. ምሽት። 3. መቆያ፣ የምሽቱን ጊዜ ማሳለፊያ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/020.mp3"
+  },
+  {
+    "word": "ማምሺውን",
+    "meaning": "ወደ ማታ ገደማ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/021.mp3"
+  },
+  {
+    "word": "አመሻሽ",
+    "meaning": "ስ ምሽት።",
+    "page": 83,
+    "audio": "assets/audio/page_083/022.mp3"
+  },
+  {
+    "word": "አስመሸ",
+    "meaning": "ግ እስከምሽት ወይም እስከ ማታ ወይም እስከ ሌሊት አቆየ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/023.mp3"
+  },
+  {
+    "word": "መሸለቀ",
+    "meaning": "\"ሞሸለቀ\"ን ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/024.mp3"
+  },
+  {
+    "word": "መሸቢያ",
+    "meaning": "\"ሸበበ\" ስር ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/025.mp3"
+  },
+  {
+    "word": "መሸተ",
+    "meaning": "ግ ለገበያ የሚሆንና የሚሸጥ ጠላ፣ ጠጅ ወይም አረቄ፣...ጠመቀ፣ አዘጋጀ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/026.mp3"
+  },
+  {
+    "word": "መሸታ",
+    "meaning": "ስ 1. ለሽያጭ የተዘጋጀ ጠላ ወይም አረቄ። 2. ቶሎ ለገበያ እንዲደርስ ተብሉ ያለጥንቃቄ የተሰራ መናኛ እቃ፣ ልብስ፣...።",
+    "page": 83,
+    "audio": "assets/audio/page_083/027.mp3"
+  },
+  {
+    "word": "መሸታ ቤት",
+    "meaning": "ስ እንደ ጠላ፣ የአገር አረቄ፣ ጠጅ ያሉ መጠጦች የሚሸጡበት ቤት።",
+    "page": 83,
+    "audio": "assets/audio/page_083/028.mp3"
+  },
+  {
+    "word": "መሸተኛ",
+    "meaning": "ስ 1. ጠላ ወይም ጠጅ ወይም የአገር አረቄ፣...እያዘጋጀች የምትሸጥ ሴት። 2. መሸታ ቤት አዘውትሮ በመሄድ የሚጠጣ (ሰው)።",
+    "page": 83,
+    "audio": "assets/audio/page_083/029.mp3"
+  },
+  {
+    "word": "መሸንገያ",
+    "meaning": "\"ሸነገለ\" ስር ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/030.mp3"
+  },
+  {
+    "word": "መሸኛ",
+    "meaning": "\"ሸኘ\" ስር ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/031.mp3"
+  },
+  {
+    "word": "መሸክ",
+    "meaning": "ግ 1. ደቀቀ፣ ነከተ። 2. ተጠመለመለ፣ ተለወሰወሰ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/032.mp3"
+  },
+  {
+    "word": "እምሸክ አለ",
+    "meaning": "ግ ስብርብር፣ ድቅቅ አለ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/033.mp3"
+  },
+  {
+    "word": "አመሸከ",
+    "meaning": "ግ 1. ደቃቀሰ፣ አነኳኳተ። 2. ጥርግ ሙጥጥ ወይም እንክት አድርጎ በላ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/034.mp3"
+  },
+  {
+    "word": "መሸገ",
+    "meaning": "ግ 1. ከጦላት ጦር ለመከላከል ጉድጓድ በመፈላት ድንጋይ በመካብ...መሸሸጊያ አበጀ፤ ምሽግ ሰራ። 2. ተደበቀ፣ ተሸሸገ። 3. (ዘይ.) በአንድ በታ ወይም አካባቢ ተወስኖ ተቀመጠ ወይም አዘውትሮ ተገኘ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/035.mp3"
+  },
+  {
+    "word": "ምሽግ",
+    "meaning": "ስ 1. ከጦላት ጦር ለመከላከል ጉድጓድ በመቆፈር በመካብ...የሚሰራ መከላያ በታ፣ ተገን። 2. (ዘይ.) ሁልጊዜ የማይታጣበት በታ፣ መገኛ፣ መዋያ። የእገሌ ምሽግ ያ ጠጅ ቤት ነው።",
+    "page": 83,
+    "audio": "assets/audio/page_083/036.mp3"
+  },
+  {
+    "word": "ምሽግ ሰበረ",
+    "meaning": "ምሽግን ጥሶ ገባ፣ አለፈ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/037.mp3"
+  },
+  {
+    "word": "ተመሸገ",
+    "meaning": "ግ ተከለለ፣ ተደበቀ፣ ምሽግ ውስጥ ሆነ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/038.mp3"
+  },
+  {
+    "word": "መሸጋገሪያ",
+    "meaning": "\"*ሻገረ\" ስር ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/039.mp3"
+  },
+  {
+    "word": "መሸጎሪያ",
+    "meaning": "\"ሽጎረ\" ስር ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/040.mp3"
+  },
+  {
+    "word": "መሸፈኛ",
+    "meaning": "\"ሽፈነ\" ስር ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/041.mp3"
+  },
+  {
+    "word": "መሹለክለኪያ",
+    "meaning": "ዝ.ክ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/042.mp3"
+  },
+  {
+    "word": "መሽረብ(መትረብ)",
+    "meaning": "ስ 1. የውሃ ቱቦ። 2. አሽንዳ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/043.mp3"
+  },
+  {
+    "word": "መሽቀቅ",
+    "meaning": "ስ በሱራ፣ በቀሚስ፣...ወገብ ዙሪያ የሚገባ ማሰሪያ፣ ጥብጣብ።",
+    "page": 83,
+    "audio": "assets/audio/page_083/044.mp3"
+  },
+  {
+    "word": "መሿለኪያ",
+    "meaning": "\"ሾለከ\" ስር ተመ.",
+    "page": 83,
+    "audio": "assets/audio/page_083/045.mp3"
   }
 ]
