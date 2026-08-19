@@ -145,8 +145,146 @@
   },
   {
     "word": "ከምድሪ ገፅ (ከገፅ ምድር)",
-    "meaning": "ከምድር ላይ፡፡",
+    "meaning": "ከምድር ላይ፡፡ በአሁኑ ጊዜ ሬንጣጣ ከምድር ገፅ ጠፍቷል።",
     "page": 113,
     "audio": "assets/audio/page_113/025.mp3"
+  },
+  {
+    "word": "ምድር ቤት",
+    "meaning": "ስ ፎቅ ሆኖ በተሰራ ቤት ውስጥ ከመሰረቱ በላይና ከአንደኛው ፎቅ ስር ያለው ቤት፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/026.mp3"
+  },
+  {
+    "word": "የምድር ሰላጤ",
+    "meaning": "ስ ከጫፉ ሾልና ሾጠጥ ብሉ ወደባህር የሚገባ የመሬት አካል፤ ጠርዝ፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/027.mp3"
+  },
+  {
+    "word": "የምድር ስቅ/ወገብ",
+    "meaning": "ስ በምስራቅና በምእራብ አቅጣጫ በምድር ወገብ ዙሪያ የተሰመረ የሃሳብ መስመር፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/028.mp3"
+  },
+  {
+    "word": "የምድር በርበሬ",
+    "meaning": "ስ ወደ ቅላት የሚያደላ ቢጫ አበባ ያለው፣ እንጥሉ ሲወርድ መድሃኒት ነው የሚባልበት፣ የሚያቃጥል የአፅዋት ዘር፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/029.mp3"
+  },
+  {
+    "word": "የምድር እንቧይ",
+    "meaning": "ስ ቅጠሉና የፍሬው ቅርፅ የሚመሳሰል፣ ቢበስል ቀይ የሚሆን፣ ከክ የሚያክል ፍሬ ያለውና መሬት ላይ የሚተኛ አነስተኛ ሃረግ የእፅዋት አይነት፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/030.mp3"
+  },
+  {
+    "word": "የምድር ዋልታ",
+    "meaning": "ስ የምድር ሰሜናዊ ወይም ደቡባዊ ጫፍ፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/031.mp3"
+  },
+  {
+    "word": "የምድር ዝላይ",
+    "meaning": "ስ (ስፖ.) ከአንድ ከተወሰነ መነሻ በታ ላይ ተነስቶ በአየር ላይ አግድም በመወርወር የሚደረግ ዝላይ፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/032.mp3"
+  },
+  {
+    "word": "የምድር ጉድ",
+    "meaning": "በጣም አጭር፤ ድንክ፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/033.mp3"
+  },
+  {
+    "word": "የምድር ጠር",
+    "meaning": "ስ እግረኛን፣ ታንከኛን፣ መድፈኛን፣...የሚያጠቃልል በመሬት ላይ እየተጓዘ የሚዋጋ ወታደራዊ ክፍል፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/034.mp3"
+  },
+  {
+    "word": "ምድራዊ",
+    "meaning": "(ብ.ቁ. ምድራውያን) ቅ 1. አለማዊ፣ ስጋዊ፣ መንፈሳዊ ያልሆነ፡፡ 2. በምድር ላይ ያለ፣ የሚገኝ፣ የሚኖር (ፍጡር)፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/035.mp3"
+  },
+  {
+    "word": "ምድብ",
+    "meaning": "\"መደበ\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/036.mp3"
+  },
+  {
+    "word": "ምድሽ",
+    "meaning": "\"ነደደ¹\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/037.mp3"
+  },
+  {
+    "word": "ምግባር",
+    "meaning": "\"*ገበረ¹\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/038.mp3"
+  },
+  {
+    "word": "ምግብ",
+    "meaning": "\"መገበ\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/039.mp3"
+  },
+  {
+    "word": "ምጎኝ",
+    "meaning": "(ሙ-ጎኝ) ስ ከሽክላ የሚሰራ የእንጀራ መጋገሪያ ምጣድ፡፡",
+    "page": 113,
+    "audio": "assets/audio/page_113/040.mp3"
+  },
+  {
+    "word": "ምጣት",
+    "meaning": "\"መጣ\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/041.mp3"
+  },
+  {
+    "word": "ምጣኔ",
+    "meaning": "\"መጠነ\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/042.mp3"
+  },
+  {
+    "word": "ምጣድ",
+    "meaning": "\"ጣደ\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/043.mp3"
+  },
+  {
+    "word": "ምጣጭ",
+    "meaning": "\"መጠጠ\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/044.mp3"
+  },
+  {
+    "word": "ምጥ",
+    "meaning": "\"*ማጠ\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/045.mp3"
+  },
+  {
+    "word": "ምጥማቅ",
+    "meaning": "\"ጠመቀ²\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/046.mp3"
+  },
+  {
+    "word": "ምጥማጥ",
+    "meaning": "(ሽለምጥማጥ) ስ 1. መጠኑ የሚያክል፣ ጅራቱ ረዥምና እግሩ አጭር፣ አማጭር የሆነ አውሬ፡፡ 2. (ዘይ.፣ ስድብ) በጣም ጥቁር (ለመልክ)፡፡ (ስእሉን የዱር እንስሳ ስር ተመ.)።",
+    "page": 113,
+    "audio": "assets/audio/page_113/047.mp3"
+  },
+  {
+    "word": "ምጥቀት",
+    "meaning": "\"መጠቀ\" ስር ተመ.",
+    "page": 113,
+    "audio": "assets/audio/page_113/048.mp3"
   }
 ]
