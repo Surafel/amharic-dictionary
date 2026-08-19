@@ -118,5 +118,131 @@
     "meaning": "ግ 1. አሰበ፣ አወጣ አወረደ፣ አሰላሰለ። 2. አስተያየ፣ አነፃፀረ፣ አወዳደረ።",
     "page": 93,
     "audio": "assets/audio/page_093/020.mp3"
+  },
+  {
+    "word": "አመዛዘኝ",
+    "meaning": "ት የሚያስተውል፣ የሚያስብ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/021.mp3"
+  },
+  {
+    "word": "አስመዘነ",
+    "meaning": "ግ በሚዛን አስለካ፣ ክብደቱ እንዲታወቅ አደረገ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/022.mp3"
+  },
+  {
+    "word": "መዘከሪያ",
+    "meaning": "\"ዝከረ\" ስር ተመ.",
+    "page": 93,
+    "audio": "assets/audio/page_093/023.mp3"
+  },
+  {
+    "word": "መዘክር",
+    "meaning": "ዝ.ክ.",
+    "page": 93,
+    "audio": "assets/audio/page_093/024.mp3"
+  },
+  {
+    "word": "መዘወሪያ",
+    "meaning": "\"ዘወረ\" ስር ተመ.",
+    "page": 93,
+    "audio": "assets/audio/page_093/025.mp3"
+  },
+  {
+    "word": "መዘውር",
+    "meaning": "ዝ.ክ.",
+    "page": 93,
+    "audio": "assets/audio/page_093/026.mp3"
+  },
+  {
+    "word": "መዘዘ",
+    "meaning": "ግ ስቦ፣ ለይቶ፣ ጎትቶ አወጣ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/027.mp3"
+  },
+  {
+    "word": "መዘዞ አወጣ",
+    "meaning": "ካለበት፣ ከተደበቀበት ፈልጎ አወጣ፣ አጋለጠ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/028.mp3"
+  },
+  {
+    "word": "መዘዝ",
+    "meaning": "ስ 1. የጠብ፣ የንገር፣ የክፉ አጋጣሚ፣... መነሻ ምክንያት፣ ጠንሳፍ፣ ሰበብ። 2. በአንድ ነገር ምክንያት ተያይዞ የሚመጣ ችግር።",
+    "page": 93,
+    "audio": "assets/audio/page_093/029.mp3"
+  },
+  {
+    "word": "መዘዘኛ",
+    "meaning": "ት ጠንሳፍ፣ ጠንቀኛ፣ ሰበበኛ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/030.mp3"
+  },
+  {
+    "word": "መዘዞ",
+    "meaning": "ስ መለሱ ቁመቱ ዘለግ ያለ፣ ሉጋ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/031.mp3"
+  },
+  {
+    "word": "ተመዘዘ",
+    "meaning": "ግ አደገ፣ ረዘመ፣ ቁመቱ ጨመረ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/032.mp3"
+  },
+  {
+    "word": "ተማዘዘ",
+    "meaning": "ግ ከተማላው ሰው ጋር ለመታከክ፣ ለመፋለም፣ ለመጋደል፣... ዱላ ወይም ሌላ መሳሪያ አወጣ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/033.mp3"
+  },
+  {
+    "word": "አማዘዘ",
+    "meaning": "ግ ሰዎች በዱላ ወይም በሌላ መሳሪያ ለመፋለም እንዲጋጣጡ ሰበብ፣ ምክንያት ሆነ፣ አጣላ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/034.mp3"
+  },
+  {
+    "word": "መዘገበ",
+    "meaning": "ግ 1. በመረጃነት እንዲያገለግል ፃፈ፣ በሰነድ አሰፈረ (አንድን የተወሰነ ጉዳይ)። 2. በአንድ ቡድን ወይም ተቋም ውስጥ አባል ሆነ ወይም ስም አስመዘገበ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/035.mp3"
+  },
+  {
+    "word": "መዝገብ",
+    "meaning": "ስ ልዩ ልዩ መረጃዎች (የስም፣ ወይም የሰነድ ዝርዝር ወይም የወጪና ገቢ) ተመዝግበው የሚያዙበት ትልቅ ደብተር።",
+    "page": 93,
+    "audio": "assets/audio/page_093/036.mp3"
+  },
+  {
+    "word": "መዝገበ ቃላት",
+    "meaning": "ስ በአንድ ቋንቋ ውስጥ የሚገኙ ቃላት በፊደል ተራቸው የተመዘገቡበትና ትርጉማቸው የተሰጠበት ፅሁፍ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/037.mp3"
+  },
+  {
+    "word": "መዝገብ ቤት",
+    "meaning": "ስ አንድ መስሪያ ቤት የሚያከናውናቸው ተግባሮችና የመስሪያ ቤቱን ሰራተኞች የሚመለከት መረጃ ተመዝግቦ የሚቀመጥበት ክፍል።",
+    "page": 93,
+    "audio": "assets/audio/page_093/038.mp3"
+  },
+  {
+    "word": "ምዝገባ",
+    "meaning": "ስ ለአንድ ለተወሰነ ጉዳይ ስምን ወይም የመሳሰለ ነገር የማስመዝገብ ተግባር።",
+    "page": 93,
+    "audio": "assets/audio/page_093/039.mp3"
+  },
+  {
+    "word": "ተመዘገበ",
+    "meaning": "ግ (አንድ መረጃ፣ ስም ዝርዝር፣...) በፅሁፍ ሰፈረ፣ ተፃፈ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/040.mp3"
+  },
+  {
+    "word": "አስመዘገበ",
+    "meaning": "ግ አንድ ከፍተኛ ውጤት ወይም ከፍተኛ ተግባር በማከናወን ራሱን አሳወቀ፣ የበላይነቱን አሳየ።",
+    "page": 93,
+    "audio": "assets/audio/page_093/041.mp3"
   }
 ]
