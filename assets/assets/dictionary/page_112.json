@@ -1,0 +1,302 @@
+[
+  {
+    "word": "ምን ጥልቅ አደረገህ",
+    "meaning": "ምን አገባህ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/001.mp3"
+  },
+  {
+    "word": "ከምንጊዜው (ከምኚው)",
+    "meaning": "ከመቼው፣ እንዴት ባለ ፍጥነት።",
+    "page": 112,
+    "audio": "assets/audio/page_112/002.mp3"
+  },
+  {
+    "word": "ምንና ምን",
+    "meaning": "የትና የት፣ ወዴትና ወዴት፣ የማይመሳሰሉ ነገሮች ተነፃፅረው ሲገለፁ የሚያገለግል አነጋገር።",
+    "page": 112,
+    "audio": "assets/audio/page_112/003.mp3"
+  },
+  {
+    "word": "እንደምን ነህ",
+    "meaning": "ጤንነትህ እንዴት ነው፣ በምን አይነት ሁኔታ ላይ ነህ ለማለት የሚነገር የሰላምታ ቃል።",
+    "page": 112,
+    "audio": "assets/audio/page_112/004.mp3"
+  },
+  {
+    "word": "ምንነት",
+    "meaning": "የአንድ ነገር (ባህርይ፣ አመጣጥ፣ ተፈጥሮ፣...) መታወቂያ፣ መለያ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/005.mp3"
+  },
+  {
+    "word": "ምንኛ",
+    "meaning": "በጣም፣ በሃይል። ምንኛ ከበረታል!",
+    "page": 112,
+    "audio": "assets/audio/page_112/006.mp3"
+  },
+  {
+    "word": "ምናምን",
+    "meaning": "የሆነ ነገር፣ አንድ ነገር።",
+    "page": 112,
+    "audio": "assets/audio/page_112/007.mp3"
+  },
+  {
+    "word": "ምናምን በለኝ",
+    "meaning": "አንድ ነገር ስጠኝ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/008.mp3"
+  },
+  {
+    "word": "ምናምኒት",
+    "meaning": "አንድም ነገር፣ ላመል ያህል እንኳን። ምንም ምናምኒት የለኝም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/009.mp3"
+  },
+  {
+    "word": "ምንም",
+    "meaning": "ት ባዶ፣ አንድም፣ ትንሽም። ምንም የለኝም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/010.mp3"
+  },
+  {
+    "word": "ምንም አይቀረው",
+    "meaning": "የሚያደርገው ወይም የሚያገኘው ወይም የሚያጣው ነገር የለም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/011.mp3"
+  },
+  {
+    "word": "ምንም አይቀራት",
+    "meaning": "ውብ፣ ቆንጆ ናት።",
+    "page": 112,
+    "audio": "assets/audio/page_112/012.mp3"
+  },
+  {
+    "word": "ምንም አይወጣው",
+    "meaning": "1. ምንም አይናገር። 2. እንኳ አይገባውም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/013.mp3"
+  },
+  {
+    "word": "ከምንም አይቆጥረው",
+    "meaning": "1. ይንቀዋል፣ አይፈራውም። 2. አያስፈራውም። 3. አያስቸግረውም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/014.mp3"
+  },
+  {
+    "word": "ምንም ቢሆን",
+    "meaning": "የሆነው ቢሆን፣ የፈለገው ቢሆን።",
+    "page": 112,
+    "audio": "assets/audio/page_112/015.mp3"
+  },
+  {
+    "word": "ምንም አይል",
+    "meaning": "1. ደሃ ነው፤ መጠነኛ፣ መካከለኛ ነው። 2. አይነደድም። 3. አይናገርም፣ አይቃወምም። ልጅ ቢያመሽ አባቱ ምንም አይልም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/016.mp3"
+  },
+  {
+    "word": "ምንም አይደል",
+    "meaning": "ግድ የለም፣ አያስፈራም፣ አያሳስብም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/017.mp3"
+  },
+  {
+    "word": "ምንም [እንኳን]",
+    "meaning": "ቢሆንም ተብሎ ይነገራል።",
+    "page": 112,
+    "audio": "assets/audio/page_112/018.mp3"
+  },
+  {
+    "word": "በምንም አይነት",
+    "meaning": "ፈፅሞ፣ በጭራሽ፣ የፈለገው ቢሆንም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/019.mp3"
+  },
+  {
+    "word": "እንደምንም",
+    "meaning": "በተቻለ መጠን፣ በጥረት።",
+    "page": 112,
+    "audio": "assets/audio/page_112/020.mp3"
+  },
+  {
+    "word": "ምንሸር",
+    "meaning": "ስ የከመንጃ ስም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/021.mp3"
+  },
+  {
+    "word": "ምንሽንሽ",
+    "meaning": "\"መንሽንሽ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/022.mp3"
+  },
+  {
+    "word": "ምንሽ",
+    "meaning": "ስ ተቅጣጭ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/023.mp3"
+  },
+  {
+    "word": "ምንቂያም",
+    "meaning": "\"*መንቀ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/024.mp3"
+  },
+  {
+    "word": "ምንቃር¹",
+    "meaning": "\"ነቆረ\" ስር የ\"መንቆር\"ን 1ኛ ፍቺ ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/025.mp3"
+  },
+  {
+    "word": "ምንቅ ምንቅ አለ",
+    "meaning": "\"*መንቀ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/026.mp3"
+  },
+  {
+    "word": "ምንባብ",
+    "meaning": "\"ነበበ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/027.mp3"
+  },
+  {
+    "word": "ምንተ__",
+    "meaning": "ስለ ___፡፡ ምንተግርያም፡፡",
+    "page": 112,
+    "audio": "assets/audio/page_112/028.mp3"
+  },
+  {
+    "word": "ምንተእፍረቱን",
+    "meaning": "ስላፈረ፡፡ በለቆች ሬት ስለጠየቅሁት ምንተእፍረቱን ገንዘቤን ስጠኝ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/029.mp3"
+  },
+  {
+    "word": "ምንትስ",
+    "meaning": "የአንድ ነገር ስም ሲረሳ ወይም ስሙን ለመጥራት ባልተፈለገ ጊዜ በምትኩ እየገባ የሚያገለግል ቃል።",
+    "page": 112,
+    "audio": "assets/audio/page_112/030.mp3"
+  },
+  {
+    "word": "ምንቸት",
+    "meaning": "ስ ለወጥ መስሪያ፤ ለንፍሮ፤ ለጎመን፣... መቀቀያ የሚያገለግል የማሰሪያ አይነት (ስእሉን የሽክላ እቃ ስር ተመ.)።",
+    "page": 112,
+    "audio": "assets/audio/page_112/031.mp3"
+  },
+  {
+    "word": "ምንቸት አብሸ",
+    "meaning": "ስ በጣም ደቃ ከተከተፈ ስጋ የሚዘጋጅ የወጥ አይነት።",
+    "page": 112,
+    "audio": "assets/audio/page_112/032.mp3"
+  },
+  {
+    "word": "ምንኩስና",
+    "meaning": "\"መንኮስ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/033.mp3"
+  },
+  {
+    "word": "ምንዘሪ",
+    "meaning": "\"መንዘሪ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/034.mp3"
+  },
+  {
+    "word": "ምንዘር",
+    "meaning": "\"መንዘሪ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/035.mp3"
+  },
+  {
+    "word": "ምንዳ",
+    "meaning": "ስ የድካም ወይም የስራ ዋጋ፤ ደመወዝ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/036.mp3"
+  },
+  {
+    "word": "ምንደኛ",
+    "meaning": "ቅ 1. ተቀጣሪ የሚሰራ፤ ደመወዝተኛ። ስ 2. ቅጥረኛ፤ ለገንዘብ የሚሰራ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/037.mp3"
+  },
+  {
+    "word": "ምንድር",
+    "meaning": "\"ምን\" ን ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/038.mp3"
+  },
+  {
+    "word": "ምንዛላት",
+    "meaning": "(ምዛያት፣ ምንሦላት) ስ የሸማት_ አባት ወይም እናት፣ 5ኛው አያት።",
+    "page": 112,
+    "audio": "assets/audio/page_112/039.mp3"
+  },
+  {
+    "word": "ምንጣፍ",
+    "meaning": "\"*ነጠፈ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/040.mp3"
+  },
+  {
+    "word": "ምንጭ",
+    "meaning": "\"መነጨ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/041.mp3"
+  },
+  {
+    "word": "ምንጭር",
+    "meaning": "ስ የእንስሳ ቀንድ (ብዙ ጊዜ ለከብት)።",
+    "page": 112,
+    "audio": "assets/audio/page_112/042.mp3"
+  },
+  {
+    "word": "ምንጭራም",
+    "meaning": "ቅ (ስድብ) የላይኛው ቀንፉ ትልቅ የሆነ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/043.mp3"
+  },
+  {
+    "word": "ምንጭርር",
+    "meaning": "ስ ስሩ ተቀጥቅጦ ለማቅለሚያነት የሚያገለግል እፅ።",
+    "page": 112,
+    "audio": "assets/audio/page_112/044.mp3"
+  },
+  {
+    "word": "ምኞት",
+    "meaning": "\"*መኘ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/045.mp3"
+  },
+  {
+    "word": "ምእላድ",
+    "meaning": "ስ ትርጉም አዘል የሆነና አነስተኛ ወደ ሆነ ሌላ ትርጉም አዘል ክፍሎች ሊከፈል የማይችል የመጨረሻ ንኡስ አሃድ ወይም ክፍል (ለምሳሌ \"ሆድ\" ራሱን የቻለ ቃል ወይም ምእላድ ሲሆን \"ሆዳም\" ግን የ\"ሆድ\" እና የቅፅል መስራቹ \"-ም\" ጥምረት ግልትም የሁለት ምእላዶች ጥምረት የፈጠረው ቃል ነው)።",
+    "page": 112,
+    "audio": "assets/audio/page_112/046.mp3"
+  },
+  {
+    "word": "ምእመን",
+    "meaning": "\"አመነ\" ስር ተመ.",
+    "page": 112,
+    "audio": "assets/audio/page_112/047.mp3"
+  },
+  {
+    "word": "ምእራብ",
+    "meaning": "ስ ከአራቱ ማእዘናት አንዱ የሆነና በፀሃይ መጥለቂያ በኩል ያለ አቅጣጫ፣ የምስራቅ ተቃራኒ (በተጨማሪ ማእዘንን ተመ.)።",
+    "page": 112,
+    "audio": "assets/audio/page_112/048.mp3"
+  },
+  {
+    "word": "ምእራባዊ",
+    "meaning": "(ብ.ቁ. ምእራባውያን) ቅ 1. በምእራብ አቅጣጫ በኩል ያለ የሚገኝ። 2. የምእራብ። ስ 3. (ለብዙ ቁጥር ሲሆን) የምእራብ አውሮፓና የሰሜን አሜሪካ አገሮች በአንድ ላይ የሚጠራበት ስም።",
+    "page": 112,
+    "audio": "assets/audio/page_112/049.mp3"
+  },
+  {
+    "word": "ምእራፍ",
+    "meaning": "ስ 1. በመፅሃፍ ውስጥ ያለ የመፅሃፉ ገፅ (ብዙውን ጊዜ በቁጥር ይጠራል፤ ለምሳሌ ምእራፍ አንድ፣ ምእራፍ ሁለት)፡፡ 2. በጉዞም የበታ ርቀት መሃል የሚገኝ የተወሰነ አጫጭር የበታ ርቀት፡፡ 3. (ኢ.አ.ተ.ቤ.) ወደ ቀብር በታ የሚታዝ ሬሳን በየመንገዱ እያሳረፉ የጉዞ ፍታት ወይም ፀሎት የሚያደርጉበት ስፍራ፡፡ 4. አንድ ከንዋኔ ወይም ሁኔታ አልፎ ሌላ የሚጀመርበት ወቅት፡፡ በኢኮኖሚ እድገት አዲስ ምእራፍ ጀምረናል፡፡",
+    "page": 112,
+    "audio": "assets/audio/page_112/050.mp3"
+  }
+]

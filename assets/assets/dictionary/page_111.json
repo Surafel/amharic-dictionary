@@ -40,5 +40,125 @@
     "meaning": "1. ምንድን ነው? ይሄ ነገር ምን መሆኑ ነው? 2. ምን ማለቱ ነው? ስራውን ትቶ የሄደው ምን መሆኑ ነው?",
     "page": 111,
     "audio": "assets/audio/page_111/007.mp3"
+  },
+  {
+    "word": "ምን መጣ",
+    "meaning": "1. ምን ሆነ፣ ምን ተፈጠረ። 2. ለምን፣ በምን ምክንያት።",
+    "page": 111,
+    "audio": "assets/audio/page_111/008.mp3"
+  },
+  {
+    "word": "ምንመጣብኝ",
+    "meaning": "እንዴት አይነት መጥፎ ነገር ገጠመኝ!",
+    "page": 111,
+    "audio": "assets/audio/page_111/009.mp3"
+  },
+  {
+    "word": "ምን ቆረጠኝ",
+    "meaning": "1. በምን ምክንያት (አላደርገውም ለሚል ንግግር የሚሰጥ የአጸፋ መልስ)። 2. ምን አስገደደኝ፣ ምን አገባኝ።",
+    "page": 111,
+    "audio": "assets/audio/page_111/010.mp3"
+  },
+  {
+    "word": "ምን በላው",
+    "meaning": "የት ሄደ፣ የት ደረሰ።",
+    "page": 111,
+    "audio": "assets/audio/page_111/011.mp3"
+  },
+  {
+    "word": "ምን በወጣኝ",
+    "meaning": "ምን ባደረግሁ፣ ምን ባጠፋሁ፣ በምን ምክንያት፣ ለምን።",
+    "page": 111,
+    "audio": "assets/audio/page_111/012.mp3"
+  },
+  {
+    "word": "ምንቤት",
+    "meaning": "ምን አገባህ፣ ምን ጥልቅ አደረገህ።",
+    "page": 111,
+    "audio": "assets/audio/page_111/013.mp3"
+  },
+  {
+    "word": "ምንተዳዩ",
+    "meaning": "ምንቸገረኝ፣ ግድ የለኝም።",
+    "page": 111,
+    "audio": "assets/audio/page_111/014.mp3"
+  },
+  {
+    "word": "ምንቸገረኝ",
+    "meaning": "1. ምን አገባኝ። 2. ግድ የለኝም፣ ይሁን።",
+    "page": 111,
+    "audio": "assets/audio/page_111/015.mp3"
+  },
+  {
+    "word": "ምንአለበት (ምናለበት)",
+    "meaning": "ምን ይጎዳል፣ ምን ያስቸግራል (አይጎዳም፣ አያስቸግርም ለማለት የሚነገር)።",
+    "page": 111,
+    "audio": "assets/audio/page_111/016.mp3"
+  },
+  {
+    "word": "ምንአልባት",
+    "meaning": "ግምትን፣ መጠራጠርን፣ ግድፈትን የሚገልፅ አገላለጽ፤ ይሆናል። ምናልባት እመጣ ይሆናል።",
+    "page": 111,
+    "audio": "assets/audio/page_111/017.mp3"
+  },
+  {
+    "word": "ምንአባቱ (ምናባቱ)",
+    "meaning": "1. የስድብ ቃል። 2. የተስፋ መቁረጥ፣ የንዴት አገላለፅ። ምናባቱ! ምናባቴ! 3. የፍርሃትና የአክብሮት መግለጫ ቃል። ምናባቴ ፈርቼ ነው እሱን የምናገረው!",
+    "page": 111,
+    "audio": "assets/audio/page_111/018.mp3"
+  },
+  {
+    "word": "ምንአውቀ (ምናውቀህ)",
+    "meaning": "እኔ እንዴት አውቃለሁ፣ እኔ አላውቅም።",
+    "page": 111,
+    "audio": "assets/audio/page_111/019.mp3"
+  },
+  {
+    "word": "ምንአውቅልህ (ምናውቅልህ)",
+    "meaning": "\"እንቅልፍልህ\" ለሚል ሰላምታ የሚሰጥ የመልስ ቃል (ትርጉሙ በዘይቤ \"ምን አልኩህ\" ማለት ነው)።",
+    "page": 111,
+    "audio": "assets/audio/page_111/020.mp3"
+  },
+  {
+    "word": "ምንአገባኝ (ምናገባኝ)",
+    "meaning": "ምንቸገረኝ፣ ጉዳዬ አይመለከተኝም።",
+    "page": 111,
+    "audio": "assets/audio/page_111/021.mp3"
+  },
+  {
+    "word": "ምንከፋኝ",
+    "meaning": "እንዲሁ ይሁን፣ እንደተባለው ይሁን።",
+    "page": 111,
+    "audio": "assets/audio/page_111/022.mp3"
+  },
+  {
+    "word": "ምንወሰደው",
+    "meaning": "የት ነው ያለው፣ የት ሄደ።",
+    "page": 111,
+    "audio": "assets/audio/page_111/023.mp3"
+  },
+  {
+    "word": "ምን ይሆናል",
+    "meaning": "1. ምን ይጠቅማል፣ ምን ያገለግላል። 2. የፀፀት ስሜት ለመግለፅ የሚያገለግል አባባል። ምን ይሆናል ወይ አሁን ደርሶ ቢሆን!",
+    "page": 111,
+    "audio": "assets/audio/page_111/024.mp3"
+  },
+  {
+    "word": "ምንገደኝ",
+    "meaning": "1. ምንቸገረኝ። 2. ለምን እምቢ እላለሁ።",
+    "page": 111,
+    "audio": "assets/audio/page_111/025.mp3"
+  },
+  {
+    "word": "ምንጊዜ (ምንዬ፣ ምንዩ፣ ምኝ)",
+    "meaning": "መቼ፣ በየትኛው ጊዜ፣ በስንት ጊዜ፣ በምን ያክል ጊዜ (አገላለፁ የተለያዩ ናቸው)።",
+    "page": 111,
+    "audio": "assets/audio/page_111/026.mp3"
+  },
+  {
+    "word": "[ለ] ምንጊዜም",
+    "meaning": "1. ሁልጊዜ። 2. በማንኛውም ጊዜ።",
+    "page": 111,
+    "audio": "assets/audio/page_111/027.mp3"
   }
 ]
