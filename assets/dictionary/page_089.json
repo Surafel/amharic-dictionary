@@ -127,8 +127,236 @@
   },
   {
     "word": "አመናወቀ",
-    "meaning": "ግ በቁጣና በማጥላላት ወይም...",
+    "meaning": "ግ በቁጣና በማጥላላት ወይም በንቀትና ስነስርአት በጎደለው አኳሄን ተናገረ።",
     "page": 89,
     "audio": "assets/audio/page_089/022.mp3"
+  },
+  {
+    "word": "መነጽር (መንጥር)",
+    "meaning": "ስ ከብ ወይም ሞላላ ወይም አራት ማዕዘን ቅርፅ ያላቸው ጥንድ የማሳያ ብርጭቆዎች የተገጠመለት፣ ጆሮዎች ላይ የሚያርፉ ሁለት ዘንግ ያሉትና አፍንጫ ላይ እንዲያርፍ ሆኖ የተሰራ፣ በተለይዩ የአይን በሽታ ምክንያቶች የማየት አቅም ሲደክም ወይም አይኑን ከፀሃይ ብርሃን ለመከላከል ሲባል አይን ላይ የሚደረግ መሳሪያ፤ አይነርግብ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/023.mp3"
+  },
+  {
+    "word": "መነፍ",
+    "meaning": "\"ነፈፈ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/024.mp3"
+  },
+  {
+    "word": "መና",
+    "meaning": "1. ከንቱ፣ ብላሽ፣ ዋጋ የሌለው። 2. ባዶ። ገንዘቡን ሳያገኝ መናውን ቀረ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/025.mp3"
+  },
+  {
+    "word": "መና ቀረ",
+    "meaning": "1. ባዶውን ቀረ። 2. ከንቱ ብላሽ ሆኖ ቀረ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/026.mp3"
+  },
+  {
+    "word": "መኖ",
+    "meaning": "ስ በመፅሃፍ ቅዱስ እንደተፃፈው እግዚአብሄር ከሰማይ እያወረደላቸው እስራኤላውያን በምድረ በዳ ላሉ ይመገቡት የነበረ ምግብ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/027.mp3"
+  },
+  {
+    "word": "መናህሪያ",
+    "meaning": "ስ 1. የህዝብ ማንኛቸውም (መኪና፣ ባቡር፣...) መንሻና መድረሻ ጣቢያ። 2. መገናኛ፣ መስብሰቢያ፣ መከማቻ፣ የነጋዴዎች መናህሪያ /የሌቦች መናህሪያ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/028.mp3"
+  },
+  {
+    "word": "መናሂ",
+    "meaning": "\"ምናሄ\"ን ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/029.mp3"
+  },
+  {
+    "word": "መናኛ",
+    "meaning": "ት ጥራት የሌለው፣ ተራ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/030.mp3"
+  },
+  {
+    "word": "መናኝ",
+    "meaning": "\"መነነ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/031.mp3"
+  },
+  {
+    "word": "መናጆ",
+    "meaning": "\"ነዳ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/032.mp3"
+  },
+  {
+    "word": "መናገሻ ከተማ",
+    "meaning": "\"ነገሰ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/033.mp3"
+  },
+  {
+    "word": "መናጤ",
+    "meaning": "\"መነጠ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/034.mp3"
+  },
+  {
+    "word": "መናፈሻ",
+    "meaning": "\"ነፈሰ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/035.mp3"
+  },
+  {
+    "word": "መናፍቅ",
+    "meaning": "ስ በአንድ ሃይማኖት ውስጥ አጠቃላይ ከሆነው እምነቱ ድንጋጌ ውጪ ለየት ያለ መንገድ ይዞ የሚከተልና በእምነቱ ውስጥ ያሉትን አንዳንድ መሰረታዊ ነጥቦች የማይቀበል፣ ተጠራጣሪ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/036.mp3"
+  },
+  {
+    "word": "መን",
+    "meaning": "ስ ሽማኔ የግራና የቀኝ እግሩን እያፈራረቀ ሲረግጠው አንዱ ወደ ላይ ሌላው ወደታች በመሆን ድርና ማግን የሚያሰባጥር ወይም የሚያወሳስብ ሸማኔ እቃ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/037.mp3"
+  },
+  {
+    "word": "መንማና",
+    "meaning": "\"መነመነ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/038.mp3"
+  },
+  {
+    "word": "መንስኤ",
+    "meaning": "\"*ነሳ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/039.mp3"
+  },
+  {
+    "word": "መንሻሌት",
+    "meaning": "\"እንሻሌት\" ን ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/040.mp3"
+  },
+  {
+    "word": "መንሽ",
+    "meaning": "\"መነሸ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/041.mp3"
+  },
+  {
+    "word": "መንቀል",
+    "meaning": "ስ ረዘም ብሎ ቀጠን ያለ አንገት ያለው የውሃ መያዣ ቅል ወይም ሸክላ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/042.mp3"
+  },
+  {
+    "word": "መንቀሽ¹",
+    "meaning": "\"ንቀሰ¹\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/043.mp3"
+  },
+  {
+    "word": "መንቀሽ²",
+    "meaning": "\"ንቀሰ²\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/044.mp3"
+  },
+  {
+    "word": "መንቃራ",
+    "meaning": "\"መነቀረ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/045.mp3"
+  },
+  {
+    "word": "መንቆር",
+    "meaning": "\"ነቆረ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/046.mp3"
+  },
+  {
+    "word": "መንበር",
+    "meaning": "ስ 1. መቀመጫ ወይም ወንበር (ለንጉስ፣ ለጳትርያርክ፣...)። 2. እንደ ቁም ሳጥን ሆኖ በአራት ማዕዘን መልክ የተሰራ የታቦት ወይም የዕቃ ማስቀመጫ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/047.mp3"
+  },
+  {
+    "word": "መንበረ መንግስት",
+    "meaning": "ስ የንጉስ የክብር መቀመጫ ወይም ወንበር፣ ዙፋን።",
+    "page": 89,
+    "audio": "assets/audio/page_089/048.mp3"
+  },
+  {
+    "word": "መንበረ ፀባእት",
+    "meaning": "ስ ሰማያዊ የአምላክ ዙፋን።",
+    "page": 89,
+    "audio": "assets/audio/page_089/049.mp3"
+  },
+  {
+    "word": "መንታ",
+    "meaning": "ስ 1. በአንድ ጊዜ ከአንዲት እናት የተወለዱ ቁጥራቸው ከአንድ በላይ የሆኑ ልጆች፣ ግልገሎች፣...። 2. የታችኛው ክፍሉ አንድ ሆኖ ከላይ እንደ ባላ ሁለት የሆነ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/050.mp3"
+  },
+  {
+    "word": "መንታ መንገድ",
+    "meaning": "ስ ከተለያዩ አቅጣጫዎች የሚመጡ መንገዶች የሚገናኙበት ወይም አንድ መስመር የነበረው ወደ ተለያዩ አቅጣጫዎች የሚከፋፈልበት መንገድ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/051.mp3"
+  },
+  {
+    "word": "መንታ ምላስ",
+    "meaning": "1. ለፍላፊ፣ ተሳዳቢ። 2. አንድን ጉዳይ በሚመለከት አንድ ጊዜ ሌላ ጊዜ ደግሞ ከበፊቱ የተለየ ሌላ ነገር የሚናገር፣ ቀላማጅ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/052.mp3"
+  },
+  {
+    "word": "መንትያ",
+    "meaning": "ስ ከአንድ እናት ባንድ ጊዜ የተወለዱት መንታ ልጆች እናት።",
+    "page": 89,
+    "audio": "assets/audio/page_089/053.mp3"
+  },
+  {
+    "word": "መንቻካ",
+    "meaning": "\"መነቸክ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/054.mp3"
+  },
+  {
+    "word": "መንከላወሸ",
+    "meaning": "\"ከለወሰ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/055.mp3"
+  },
+  {
+    "word": "መንከት",
+    "meaning": "\"ነከተ\" ስር ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/056.mp3"
+  },
+  {
+    "word": "መንከፍ",
+    "meaning": "ቅ ቲል፣ ምኝ፣ እንክፍ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/057.mp3"
+  },
+  {
+    "word": "መንካ ቀልቃል",
+    "meaning": "\"ቀልቃል\" ን 1ኛ ፍቺ ተመ.",
+    "page": 89,
+    "audio": "assets/audio/page_089/058.mp3"
+  },
+  {
+    "word": "መንካኮ",
+    "meaning": "ስ የበቀሉ ችግኝ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/059.mp3"
+  },
+  {
+    "word": "መንኮራኩር",
+    "meaning": "ስ ከመሬት ውጭ ወዳሉ ፕላኔቶች ወይም በጠፈር ላይ ለሚካሄዱ ልዩ ልዩ ጥናቶች የሚላኩ ተመራማሪዎች፣ መሳሪያዎች፣...የሚጓዙበት መናዊ መሳሪያ።",
+    "page": 89,
+    "audio": "assets/audio/page_089/060.mp3"
   }
 ]
