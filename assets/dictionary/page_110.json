@@ -1,0 +1,386 @@
+[
+  {
+    "word": "ምረቃ",
+    "meaning": "\"መረቀ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/001.mp3"
+  },
+  {
+    "word": "ምሩቅ",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/002.mp3"
+  },
+  {
+    "word": "ምረት",
+    "meaning": "\"መራ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/003.mp3"
+  },
+  {
+    "word": "ምራቅ",
+    "meaning": "ስ ከአፍ የሚወጣ አረፋነት ያለው ፈሳሽ ነገር።",
+    "page": 110,
+    "audio": "assets/audio/page_110/004.mp3"
+  },
+  {
+    "word": "ምራቁን ዋጠ",
+    "meaning": "ተመኘ፣ ጓጓ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/005.mp3"
+  },
+  {
+    "word": "ምራቁን የዋጠ",
+    "meaning": "በእድሜ የበሰለ፣ የነከነ ሰው።",
+    "page": 110,
+    "audio": "assets/audio/page_110/006.mp3"
+  },
+  {
+    "word": "ምራት¹",
+    "meaning": "ስ የልጅ ሚስት።",
+    "page": 110,
+    "audio": "assets/audio/page_110/007.mp3"
+  },
+  {
+    "word": "ምራን",
+    "meaning": "\"መረነ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/008.mp3"
+  },
+  {
+    "word": "ምራጭ",
+    "meaning": "\"መረጠ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/009.mp3"
+  },
+  {
+    "word": "ምራት²",
+    "meaning": "\"መረረ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/010.mp3"
+  },
+  {
+    "word": "ምር",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/011.mp3"
+  },
+  {
+    "word": "ምርመራ",
+    "meaning": "\"መረመረ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/012.mp3"
+  },
+  {
+    "word": "ምርምር",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/013.mp3"
+  },
+  {
+    "word": "ምርቃት",
+    "meaning": "\"መረቀ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/014.mp3"
+  },
+  {
+    "word": "ምርቃና",
+    "meaning": "\"መረቀኝ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/015.mp3"
+  },
+  {
+    "word": "ምርታማ",
+    "meaning": "\"መረተ¹\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/016.mp3"
+  },
+  {
+    "word": "ምርት",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/017.mp3"
+  },
+  {
+    "word": "ምርኩዝ",
+    "meaning": "\"*መረኩዘ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/018.mp3"
+  },
+  {
+    "word": "ምርኮ",
+    "meaning": "\"ማረከ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/019.mp3"
+  },
+  {
+    "word": "ምርኮኛ",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/020.mp3"
+  },
+  {
+    "word": "ምርጊት",
+    "meaning": "\"መረገ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/021.mp3"
+  },
+  {
+    "word": "ምርግ",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/022.mp3"
+  },
+  {
+    "word": "ምርጥ",
+    "meaning": "\"መረጠ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/023.mp3"
+  },
+  {
+    "word": "ምርጫ",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/024.mp3"
+  },
+  {
+    "word": "ምርፍቅ",
+    "meaning": "\"ረፈቀ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/025.mp3"
+  },
+  {
+    "word": "ምስሶ (ምሶሶ)",
+    "meaning": "ስ 1. በግንብ አካባቢ በተለይ ክብ ቅርፅ ይዞ በሚሰራ ቤት ውስጥ ከቤቱ ወለል መካከል ላይ ተተክሎ ጣራውን ተሸክሞ የሚቆም፣ ቀጥ ያለ ረዥምና ጠንካራ እንጨት። 2. የኤሌክትሪክ፣ የስልክ ሽቦ የሚያስተላልፍ ረዥምና ወፍራም እንጨት። 3. ለጣራ ወይም ለታዛ መደገፊያ ተብሎ በበረንዳ ወይም በቤት ውስጥ የሚተከል የእንጨት ወይም የድንጋይ ዓምድ። 4. (ዘይ.) ምንጭ፣ ድጋፍ፣ መሰረት። ታላቅ ወንድማቸው የቤታቸው ምሶሶ ነው።",
+    "page": 110,
+    "audio": "assets/audio/page_110/026.mp3"
+  },
+  {
+    "word": "ምሳ",
+    "meaning": "ስ እኩለ ቀን ላይ የሚበላ ምግብ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/027.mp3"
+  },
+  {
+    "word": "ምሳ ጨጠረ",
+    "meaning": "ለምሳ የሚሆነውን ምግብ በአገልግል ወይም በሰሃን ያዘ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/028.mp3"
+  },
+  {
+    "word": "ምሳሌ",
+    "meaning": "\"መሰለ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/029.mp3"
+  },
+  {
+    "word": "ምሳሌያዊ ንግግር",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/030.mp3"
+  },
+  {
+    "word": "ምሳር",
+    "meaning": "\"ጠገራ²\"ን ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/031.mp3"
+  },
+  {
+    "word": "ምሳና",
+    "meaning": "\"ብሳና\"ን ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/032.mp3"
+  },
+  {
+    "word": "ምሳግ",
+    "meaning": "\"መሰገ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/033.mp3"
+  },
+  {
+    "word": "ምስ",
+    "meaning": "ስ 1. ለሰይጣን፣ ለዛር፣ ለቡዳ፣... የሚሰጥ ድርጎ፣ ግብር። 2. ቅጣት። ምሱን አገኘ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/034.mp3"
+  },
+  {
+    "word": "ምስለቢስ",
+    "meaning": "\"መሰለ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/035.mp3"
+  },
+  {
+    "word": "ምስለኔ",
+    "meaning": "ስ በባላባቱ ስርአት የመሬት ስሪት ውስጥ መንግስትን ወይም መልክኛን የሚወክል፣ ስልጣኑ ከጦቃ ሹም በላይ የሆነ ሹም።",
+    "page": 110,
+    "audio": "assets/audio/page_110/036.mp3"
+  },
+  {
+    "word": "ምስል",
+    "meaning": "\"መሰለ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/037.mp3"
+  },
+  {
+    "word": "ምስማር (ሚስማር)",
+    "meaning": "ስ በአንድ በኩል ሹል ጫፍ ጠፍጣፋ አናት ያለው፣ እንጨትና ቆርቆሮ የመሳሰሉትን ለማያያዝ ለግንባታ የሚያገለግል ትንሽ የብረት ዘንግ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/038.mp3"
+  },
+  {
+    "word": "ምስማክ¹",
+    "meaning": "\"ሰበከ\" ስር \"ምስባክ\"ን ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/039.mp3"
+  },
+  {
+    "word": "ምስማክ²",
+    "meaning": "ስ በመፅሃፍ ገፆች መጋጠሚያ ቀኝ ላይ ያለ ባዶ ቦታ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/040.mp3"
+  },
+  {
+    "word": "ምስረታ",
+    "meaning": "\"መሰረተ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/041.mp3"
+  },
+  {
+    "word": "ምስራቅ",
+    "meaning": "ስ ከአራቱ ግእዘናት አንዱ የሆነና በፀሃይ መውጫ በኩል ያለ አቅጣጫ፤ የምእራብ ተቃራኒ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/042.mp3"
+  },
+  {
+    "word": "ምስራቃዊ",
+    "meaning": "ት 1. በስተምስራቅ አቅጣጫ ያለ፣ የሚገኝ። 2. የምስራቅ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/043.mp3"
+  },
+  {
+    "word": "ምስራች",
+    "meaning": "ስ የደስታ ወሬ፣ ዜና።",
+    "page": 110,
+    "audio": "assets/audio/page_110/044.mp3"
+  },
+  {
+    "word": "የምስራች",
+    "meaning": "1. አንድን የደስታ ወሬ ለመጀመሪያ ጊዜ ለመንገር ወይም ለማብሰር እንደመግቢያ ሆኖ የሚነገር ቃል (ለምሳሌ ተናጋሪ \"የምስራች\" ሲል ሰሚ \"ምስራች ይሁን\" ብሎ ይመልሳል)። 2. እንደ ቡና፣ ብርቱካን፣ ወይን፣... ያለ ተክል የመጀመሪያ ፍሬ መስጠት። ቡናው የመጀመሪያ ፍሬ ሰጠ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/045.mp3"
+  },
+  {
+    "word": "ምስር",
+    "meaning": "ስ ከባቄላ በመጠን የሚያንስ ጠፍጣፋና ክብ ቅርፅ ያለው ጥራጥሬ።",
+    "page": 110,
+    "audio": "assets/audio/page_110/046.mp3"
+  },
+  {
+    "word": "ምስቅልቅል",
+    "meaning": "\"*መስቀለ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/047.mp3"
+  },
+  {
+    "word": "ምስባክ",
+    "meaning": "\"ሰበከ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/048.mp3"
+  },
+  {
+    "word": "ምስከር",
+    "meaning": "\"መስከረ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/049.mp3"
+  },
+  {
+    "word": "ምስያ",
+    "meaning": "\"መሰለ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/050.mp3"
+  },
+  {
+    "word": "ምስጉን",
+    "meaning": "\"*መሰገነ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/051.mp3"
+  },
+  {
+    "word": "ምስጋና",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/052.mp3"
+  },
+  {
+    "word": "ምስጋና የለሽ",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/053.mp3"
+  },
+  {
+    "word": "ምስጢረ ስላሴ",
+    "meaning": "\"*መስጠረ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/054.mp3"
+  },
+  {
+    "word": "ምስጢረ ስጋዌ",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/055.mp3"
+  },
+  {
+    "word": "ምስጢረኛ",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/056.mp3"
+  },
+  {
+    "word": "ምስጢር",
+    "meaning": "ዝ.ክ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/057.mp3"
+  },
+  {
+    "word": "ምስጥ",
+    "meaning": "ስ 1. እንጨትን አጥፍቶ በመሬት ውስጥ የሚኖር፣ ቅርፁ ጉንዳን የሚመስል ተባይ። 2. (ዘይ.፣ ስድብ) ገንዘብን ወይም ንብረትን ቀስ በቀስ የሚያባክን ሰው።",
+    "page": 110,
+    "audio": "assets/audio/page_110/058.mp3"
+  },
+  {
+    "word": "ምሶሶ",
+    "meaning": "\"ምስሶ\"ን ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/059.mp3"
+  },
+  {
+    "word": "ምሸት¹",
+    "meaning": "\"ሚስት\"ን ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/060.mp3"
+  },
+  {
+    "word": "ምሸት²",
+    "meaning": "\"መሸ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/061.mp3"
+  },
+  {
+    "word": "ምሽግ",
+    "meaning": "\"መሸገ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/062.mp3"
+  },
+  {
+    "word": "ምቀኛ",
+    "meaning": "\"*መቀኘ\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/063.mp3"
+  },
+  {
+    "word": "ምት",
+    "meaning": "\"መታ¹\" ስር ተመ.",
+    "page": 110,
+    "audio": "assets/audio/page_110/064.mp3"
+  }
+]
