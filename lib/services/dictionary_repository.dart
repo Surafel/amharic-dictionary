@@ -107,14 +107,16 @@ class DictionaryRepository {
   }
 
   Future<void> load() async {
-    final loaded = <DictionaryEntry>[];
-    for (final path in dictionaryAssetPaths) {
-      final raw = await rootBundle.loadString(path);
-      final data = jsonDecode(raw) as List<dynamic>;
-      loaded.addAll(
-        data.map((e) => DictionaryEntry.fromJson(e as Map<String, dynamic>)),
-      );
-    }
+    final pages = await Future.wait(
+      dictionaryAssetPaths.map((path) async {
+        final raw = await rootBundle.loadString(path);
+        final data = jsonDecode(raw) as List<dynamic>;
+        return data.map(
+          (e) => DictionaryEntry.fromJson(e as Map<String, dynamic>),
+        );
+      }),
+    );
+    final loaded = pages.expand((entries) => entries).toList();
     loaded.sort((a, b) => a.word.compareTo(b.word));
     _entries = loaded;
   }
