@@ -109,7 +109,7 @@ class DictionaryRepository {
   Future<void> load() async {
     final pages = await Future.wait(
       dictionaryAssetPaths.map((path) async {
-        final raw = await rootBundle.loadString(path);
+        final raw = await _loadStringWithRetry(path);
         final data = jsonDecode(raw) as List<dynamic>;
         return data.map(
           (e) => DictionaryEntry.fromJson(e as Map<String, dynamic>),
@@ -119,6 +119,23 @@ class DictionaryRepository {
     final loaded = pages.expand((entries) => entries).toList();
     loaded.sort((a, b) => a.word.compareTo(b.word));
     _entries = loaded;
+  }
+
+  /// A single flaky fetch (common on mobile/PWA connections, especially with
+  /// many pages loading concurrently) shouldn't fail the entire dictionary
+  /// load, so retry each page a couple of times before giving up.
+  Future<String> _loadStringWithRetry(
+    String path, {
+    int attempts = 3,
+  }) async {
+    for (var attempt = 1; ; attempt++) {
+      try {
+        return await rootBundle.loadString(path);
+      } catch (_) {
+        if (attempt >= attempts) rethrow;
+        await Future.delayed(Duration(milliseconds: 200 * attempt));
+      }
+    }
   }
 
   List<DictionaryEntry> search(String query) {

@@ -17,14 +17,30 @@ class _DictionaryHomeScreenState extends State<DictionaryHomeScreen> {
   final _controller = TextEditingController();
   List<DictionaryEntry> _results = const [];
   bool _loading = true;
+  bool _loadFailed = false;
 
   @override
   void initState() {
     super.initState();
+    _loadDictionary();
+  }
+
+  void _loadDictionary() {
+    setState(() {
+      _loading = true;
+      _loadFailed = false;
+    });
     _repository.load().then((_) {
+      if (!mounted) return;
       setState(() {
         _results = _repository.entries;
         _loading = false;
+      });
+    }).catchError((_) {
+      if (!mounted) return;
+      setState(() {
+        _loading = false;
+        _loadFailed = true;
       });
     });
   }
@@ -60,6 +76,22 @@ class _DictionaryHomeScreenState extends State<DictionaryHomeScreen> {
           ),
           if (_loading)
             const Expanded(child: Center(child: CircularProgressIndicator()))
+          else if (_loadFailed)
+            Expanded(
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const Text('መዝገበ ቃላቱን መጫን አልተቻለም።'),
+                    const SizedBox(height: 12),
+                    ElevatedButton(
+                      onPressed: _loadDictionary,
+                      child: const Text('ደግመው ይሞክሩ'),
+                    ),
+                  ],
+                ),
+              ),
+            )
           else if (_results.isEmpty)
             const Expanded(child: Center(child: Text('ምንም ውጤት አልተገኘም')))
           else
