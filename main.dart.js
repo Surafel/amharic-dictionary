@@ -23836,7 +23836,7 @@ $S:2}
 A.ahS.prototype={
 $1(a){var s=A.dU().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/72f2b18bb094f92f62a3113a8075240ebb59affa/":s)+a},
+return(s==null?"canvaskit/":s)+a},
 $S:97}
 A.TY.prototype={
 er(a,b){var s,r=this.a
