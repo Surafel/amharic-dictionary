@@ -38,6 +38,10 @@ dependencies:
   # Plays bundled pronunciation clips on the entry detail screen.
   audioplayers: ^6.1.0
 
+  # Caches the parsed dictionary so it doesn't have to be re-fetched and
+  # re-parsed from all the page JSON assets on every app open.
+  shared_preferences: ^2.3.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

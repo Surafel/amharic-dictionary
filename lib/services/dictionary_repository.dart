@@ -1,8 +1,13 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/dictionary_entry.dart';
+
+const _cacheEntriesKey = 'dictionary_cache_entries_v1';
+const _cacheVersionKey = 'dictionary_cache_version_v1';
 
 /// Bundled dictionary data files, one per transcribed source page.
 /// Add the next page's asset path here once it has been transcribed.
@@ -106,7 +111,20 @@ class DictionaryRepository {
     }
   }
 
+  /// Identifies which set of pages the cached entries were built from, so a
+  /// stale cache (e.g. from before new pages were added) is never mistaken
+  /// for the current dictionary.
+  static String get _currentCacheVersion =>
+      '${dictionaryAssetPaths.length}:${dictionaryAssetPaths.isEmpty ? '' : dictionaryAssetPaths.last}';
+
   Future<void> load() async {
+    final prefs = await SharedPreferences.getInstance();
+    final cached = await _readCache(prefs);
+    if (cached != null) {
+      _entries = cached;
+      return;
+    }
+
     final pages = await Future.wait(
       dictionaryAssetPaths.map((path) async {
         final raw = await _loadStringWithRetry(path);
@@ -119,6 +137,40 @@ class DictionaryRepository {
     final loaded = pages.expand((entries) => entries).toList();
     loaded.sort((a, b) => a.word.compareTo(b.word));
     _entries = loaded;
+
+    unawaited(_writeCache(prefs, loaded));
+  }
+
+  /// Skips the network entirely on repeat opens: the parsed, sorted entry
+  /// list from the last successful load is cached, so only the first ever
+  /// load (or a load after new pages have been added) needs to fetch and
+  /// parse all the page JSON assets.
+  Future<List<DictionaryEntry>?> _readCache(SharedPreferences prefs) async {
+    if (prefs.getString(_cacheVersionKey) != _currentCacheVersion) {
+      return null;
+    }
+    final raw = prefs.getString(_cacheEntriesKey);
+    if (raw == null) return null;
+    try {
+      final data = jsonDecode(raw) as List<dynamic>;
+      return data
+          .map((e) => DictionaryEntry.fromJson(e as Map<String, dynamic>))
+          .toList();
+    } catch (_) {
+      // Corrupted cache entry; fall back to a normal load.
+      return null;
+    }
+  }
+
+  Future<void> _writeCache(
+    SharedPreferences prefs,
+    List<DictionaryEntry> entries,
+  ) async {
+    await prefs.setString(
+      _cacheEntriesKey,
+      jsonEncode(entries.map((e) => e.toJson()).toList()),
+    );
+    await prefs.setString(_cacheVersionKey, _currentCacheVersion);
   }
 
   /// A single flaky fetch (common on mobile/PWA connections, especially with
