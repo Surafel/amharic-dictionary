@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../models/dictionary_entry.dart';
 import '../services/dictionary_repository.dart';
 import '../theme/app_colors.dart';
-import 'entry_detail_screen.dart';
+import '../widgets/entry_list_tile.dart';
+import 'favorites_screen.dart';
 
 class DictionaryHomeScreen extends StatefulWidget {
   const DictionaryHomeScreen({super.key});
@@ -55,7 +56,7 @@ class _DictionaryHomeScreenState extends State<DictionaryHomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.parchment,
-      drawer: _AppDrawer(entryCount: _repository.entries.length),
+      drawer: _AppDrawer(repository: _repository),
       body: Column(
         children: [
           _SearchAppBar(controller: _controller, onChanged: _onQueryChanged),
@@ -102,37 +103,10 @@ class _DictionaryHomeScreenState extends State<DictionaryHomeScreen> {
                     const Divider(height: 1, color: Color(0xFFE3E7E9)),
                 itemBuilder: (context, index) {
                   final entry = _results[index];
-                  return ListTile(
-                    contentPadding: const EdgeInsets.symmetric(
-                      horizontal: 16,
-                      vertical: 6,
-                    ),
-                    title: Text(
-                      entry.word,
-                      style: const TextStyle(
-                        fontFamily: 'NotoSerifEthiopic',
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20,
-                        color: AppColors.bookBrown,
-                      ),
-                    ),
-                    subtitle: Text(
-                      entry.meaning,
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(color: AppColors.bodyText),
-                    ),
-                    onTap: () async {
-                      await Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (_) => EntryDetailScreen(
-                            entry: entry,
-                            repository: _repository,
-                          ),
-                        ),
-                      );
-                      setState(() {});
-                    },
+                  return EntryListTile(
+                    entry: entry,
+                    repository: _repository,
+                    onReturn: () => setState(() {}),
                   );
                 },
               ),
@@ -195,9 +169,9 @@ class _SearchAppBar extends StatelessWidget {
 }
 
 class _AppDrawer extends StatelessWidget {
-  final int entryCount;
+  final DictionaryRepository repository;
 
-  const _AppDrawer({required this.entryCount});
+  const _AppDrawer({required this.repository});
 
   @override
   Widget build(BuildContext context) {
@@ -213,16 +187,15 @@ class _AppDrawer extends StatelessWidget {
             child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  'ሀ',
-                  style: TextStyle(
-                    fontFamily: 'NotoSerifEthiopic',
-                    fontSize: 40,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                ClipRRect(
+                  borderRadius: BorderRadius.all(Radius.circular(12)),
+                  child: Image(
+                    image: AssetImage('assets/icon/app_icon.png'),
+                    width: 56,
+                    height: 56,
                   ),
                 ),
-                SizedBox(height: 8),
+                SizedBox(height: 12),
                 Text(
                   'የአማርኛ መዝገበ ቃላት',
                   style: TextStyle(
@@ -236,7 +209,19 @@ class _AppDrawer extends StatelessWidget {
           ),
           ListTile(
             leading: const Icon(Icons.menu_book, color: AppColors.goldMid),
-            title: Text('$entryCount ቃላት ተመዝግበዋል'),
+            title: Text('${repository.entries.length} ቃላት ተመዝግበዋል'),
+          ),
+          ListTile(
+            leading: const Icon(Icons.bookmark, color: AppColors.goldMid),
+            title: const Text('ዕልባት የተደረገባቸው ቃላት'),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => FavoritesScreen(repository: repository),
+                ),
+              );
+            },
           ),
           const ListTile(
             leading: Icon(Icons.info_outline, color: AppColors.goldMid),

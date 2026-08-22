@@ -8,6 +8,7 @@ import '../models/dictionary_entry.dart';
 
 const _cacheEntriesKey = 'dictionary_cache_entries_v1';
 const _cacheVersionKey = 'dictionary_cache_version_v1';
+const _favoritesKey = 'dictionary_favorites_v1';
 
 /// Bundled dictionary data files, one per transcribed source page.
 /// Add the next page's asset path here once it has been transcribed.
@@ -102,14 +103,23 @@ const List<String> dictionaryAssetPaths = [
 class DictionaryRepository {
   List<DictionaryEntry> _entries = const [];
   final Set<String> _favoriteWords = {};
+  SharedPreferences? _prefs;
 
   List<DictionaryEntry> get entries => _entries;
 
+  List<DictionaryEntry> get favoriteEntries =>
+      _entries.where((e) => _favoriteWords.contains(e.word)).toList();
+
   bool isFavorite(String word) => _favoriteWords.contains(word);
 
+  /// Persists immediately so bookmarks survive an app restart.
   void toggleFavorite(String word) {
     if (!_favoriteWords.add(word)) {
       _favoriteWords.remove(word);
+    }
+    final prefs = _prefs;
+    if (prefs != null) {
+      unawaited(prefs.setStringList(_favoritesKey, _favoriteWords.toList()));
     }
   }
 
@@ -121,6 +131,11 @@ class DictionaryRepository {
 
   Future<void> load() async {
     final prefs = await SharedPreferences.getInstance();
+    _prefs = prefs;
+    _favoriteWords
+      ..clear()
+      ..addAll(prefs.getStringList(_favoritesKey) ?? const []);
+
     final cached = await _readCache(prefs);
     if (cached != null) {
       _entries = cached;
