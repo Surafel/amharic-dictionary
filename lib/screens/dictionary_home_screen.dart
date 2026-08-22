@@ -66,7 +66,7 @@ class _DictionaryHomeScreenState extends State<DictionaryHomeScreen> {
             child: Text(
               _loading
                   ? 'በመጫን ላይ...'
-                  : '${_repository.entries.length} ቃላት • ገጽ 33-117',
+                  : '${_repository.entries.length} ቃላት • ገጽ 33-118',
               style: const TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
@@ -240,7 +240,7 @@ class _AppDrawer extends StatelessWidget {
           ),
           const ListTile(
             leading: Icon(Icons.info_outline, color: AppColors.goldMid),
-            title: Text('ምንጭ: የአማርኛ መዝገበ ቃላት መጽሐፍ (ገጽ 33-117)'),
+            title: Text('ምንጭ: የአማርኛ መዝገበ ቃላት መጽሐፍ (ገጽ 33-118)'),
           ),
         ],
       ),
