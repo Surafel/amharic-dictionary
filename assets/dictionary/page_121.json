@@ -144,129 +144,135 @@
     "audio": "assets/audio/page_121/024.mp3"
   },
   {
+    "word": "ስከንድ ቆጣሪ",
+    "meaning": "ስ በእጅ፣ በጠረጴዛ ወይም... በግድግዳ ሰአት ላይ ከሙሉ ሰአት ቆጣረው ረቻርም የሆነውና የሰኮንድን መጠን አመልካች የሆነው ቀጭን አመልካች ዘንግ።",
+    "page": 121,
+    "audio": "assets/audio/page_121/025.mp3"
+  },
+  {
     "word": "ተንስዋለለ",
     "meaning": "ግ ተንቀዋለለ።",
     "page": 121,
-    "audio": "assets/audio/page_121/025.mp3"
+    "audio": "assets/audio/page_121/026.mp3"
   },
   {
     "word": "አንስዋለለ",
     "meaning": "ግ አንቀዋለለ።",
     "page": 121,
-    "audio": "assets/audio/page_121/026.mp3"
+    "audio": "assets/audio/page_121/027.mp3"
   },
   {
     "word": "ስወረ",
     "meaning": "ግ 1. ደበቀ፣ ጋረደ፣ ሸፈነ፣ ሸሸገ። 2. አይንን አወረ፣ ጋረደ።",
     "page": 121,
-    "audio": "assets/audio/page_121/027.mp3"
+    "audio": "assets/audio/page_121/028.mp3"
   },
   {
     "word": "ስዋራ",
     "meaning": "ት ሸሸጊ፣ ድብቅ (ቦታ)።",
     "page": 121,
-    "audio": "assets/audio/page_121/028.mp3"
+    "audio": "assets/audio/page_121/029.mp3"
   },
   {
     "word": "ስውር",
     "meaning": "ት ሸሸጊ፣ ድብቅ፣ የማይታይ።",
     "page": 121,
-    "audio": "assets/audio/page_121/029.mp3"
+    "audio": "assets/audio/page_121/030.mp3"
   },
   {
     "word": "ስውር ስፌት",
     "meaning": "ስ ክር እንዳይታይ ሆኖ የተሰፋ ስፌት።",
     "page": 121,
-    "audio": "assets/audio/page_121/030.mp3"
+    "audio": "assets/audio/page_121/031.mp3"
   },
   {
     "word": "ተሰወረ",
     "meaning": "ግ 1. ተደበቀ፣ ተሸሸገ። 2. ታወረ።",
     "page": 121,
-    "audio": "assets/audio/page_121/031.mp3"
+    "audio": "assets/audio/page_121/032.mp3"
   },
   {
     "word": "ስዋ",
     "meaning": "ግ 1. አረደ። 2. ሰጠ (ህይወትን ለሃገር፣ ለሃይማኖት)። 3. አቀረበ፣ ሰጠ (መስዋእትን ለአምላክ)።",
     "page": 121,
-    "audio": "assets/audio/page_121/032.mp3"
+    "audio": "assets/audio/page_121/033.mp3"
   },
   {
     "word": "መስዋእት",
     "meaning": "ስ 1. ለአምልኮ የሚሰጥ፣ የሚቀርብ ስጦታ። 2. (ክር.) ስጋ ወደሙ።",
     "page": 121,
-    "audio": "assets/audio/page_121/033.mp3"
+    "audio": "assets/audio/page_121/034.mp3"
   },
   {
     "word": "መስዋእት ሆነ",
     "meaning": "ህይወቱን አሳልፎ ሰጠ (ለአገሩ፣ ለእምነቱ)።",
     "page": 121,
-    "audio": "assets/audio/page_121/034.mp3"
+    "audio": "assets/audio/page_121/035.mp3"
   },
   {
     "word": "መስዋእት አደረገ",
     "meaning": "ሰዋ፣ መስዋእት አቀረበ።",
     "page": 121,
-    "audio": "assets/audio/page_121/035.mp3"
+    "audio": "assets/audio/page_121/036.mp3"
   },
   {
     "word": "መስዋእት ከፈለ",
     "meaning": "ለአላማው፣ ለእምነቱ መስዋእት ሆኖ፣ ለህይወቱ ሳይሳሳ ታገለ።",
     "page": 121,
-    "audio": "assets/audio/page_121/036.mp3"
+    "audio": "assets/audio/page_121/037.mp3"
   },
   {
     "word": "ተሰዋ",
     "meaning": "ግ ህይወቱን አሳልፎ ሰጠ (ለሃገሩ፣ ለአላማው፣ ለሃይማኖቱ)።",
     "page": 121,
-    "audio": "assets/audio/page_121/037.mp3"
+    "audio": "assets/audio/page_121/038.mp3"
   },
   {
     "word": "ስዋራ",
     "meaning": "\"ስወረ\" ስር ተመ.",
     "page": 121,
-    "audio": "assets/audio/page_121/038.mp3"
+    "audio": "assets/audio/page_121/039.mp3"
   },
   {
     "word": "ስዋስው",
     "meaning": "ስ የቃላት አመሰራረትና የአረፍተ ነገር አሰካክ ስርአት ወይም ህግ። የስዋስው ስህተቶችን አርም።",
     "page": 121,
-    "audio": "assets/audio/page_121/039.mp3"
+    "audio": "assets/audio/page_121/040.mp3"
   },
   {
     "word": "ሰው",
     "meaning": "ስ 1. ማሰብና ማመዛዘን የሚችል፣ ስብአዊ ፍጡር። 2. በስተኛ መደብ የሚጠራ፣ ሌላ ግለሰብ። ሰው መጣ /ሰው ነገረኝ/ ሰው እንዳይሰማ። 3. ዘመድ፣ አጋር፣...። ሰው ስለሌለኝ ስራ አጥ ሆኜ ቀረሁ።",
     "page": 121,
-    "audio": "assets/audio/page_121/040.mp3"
+    "audio": "assets/audio/page_121/041.mp3"
   },
   {
     "word": "ሰው ሆነ",
     "meaning": "ራሱን ቻለ፣ በረታ፣ አእምሮ ገዛ፣ ጎበዝ ሆነ።",
     "page": 121,
-    "audio": "assets/audio/page_121/041.mp3"
+    "audio": "assets/audio/page_121/042.mp3"
   },
   {
     "word": "ሰው ለየ",
     "meaning": "1.አወቀ። ሃሉ ሰው ለይቷል። 2. አዳላ። ይሁም ጥቅም ሆኖ ሰው ይለይበታል።",
     "page": 121,
-    "audio": "assets/audio/page_121/042.mp3"
+    "audio": "assets/audio/page_121/043.mp3"
   },
   {
     "word": "ሰው አይሆንም",
     "meaning": "1. ከደረሰበት ሃዘን፣ ብስጭት፣ ጉዳት፣ መከራ፣...የተነሳ በጣም ይጎዳል። 2. ለቁም ነገር፣ ለጥሩ ውጤት አይበቃም።",
     "page": 121,
-    "audio": "assets/audio/page_121/043.mp3"
+    "audio": "assets/audio/page_121/044.mp3"
   },
   {
     "word": "ሰው አይደለም",
     "meaning": "በጣም መጥፎ ሰው ነው።",
     "page": 121,
-    "audio": "assets/audio/page_121/044.mp3"
+    "audio": "assets/audio/page_121/045.mp3"
   },
   {
     "word": "ሰው መሳይ በሺንጎ",
     "meaning": "በሩቅ ለሚያውቀው ጥሩ ሰው መስሎ የሚታይ።",
     "page": 121,
-    "audio": "assets/audio/page_121/045.mp3"
+    "audio": "assets/audio/page_121/046.mp3"
   }
 ]
