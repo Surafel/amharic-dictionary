@@ -39,7 +39,7 @@ def main():
             filename = f"{i:03d}.mp3"
             out_path = os.path.join(audio_dir, filename)
             subprocess.run(
-                ["espeak-ng", "-v", "am", "-s", "140", "-w", tmp_wav, word],
+                ["espeak-ng", "-v", "am", "-s", "140", "-w", tmp_wav, "--", word],
                 check=True, capture_output=True,
             )
             subprocess.run(
