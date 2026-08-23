@@ -107,6 +107,7 @@ const List<String> dictionaryAssetPaths = [
   'assets/dictionary/page_127.json',
   'assets/dictionary/page_128.json',
   'assets/dictionary/page_130.json',
+  'assets/dictionary/page_131.json',
 ];
 
 class DictionaryRepository {
