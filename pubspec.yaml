@@ -190,6 +190,7 @@ flutter:
     - assets/audio/page_145/
     - assets/audio/page_146/
     - assets/audio/page_147/
+    - assets/audio/page_148/
 
   fonts:
     - family: NotoSansEthiopic
