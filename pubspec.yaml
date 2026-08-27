@@ -200,6 +200,7 @@ flutter:
     - assets/audio/page_155/
     - assets/audio/page_156/
     - assets/audio/page_157/
+    - assets/audio/page_158/
 
   fonts:
     - family: NotoSansEthiopic
