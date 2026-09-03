@@ -5,7 +5,7 @@ definition, written entirely in Amharic — built with Flutter, ships as an
 installable web app (PWA) and as an Android app.
 
 Dictionary entries are transcribed from a printed Amharic dictionary book.
-This is an early build seeded with pages 33-164 (4,126 entries starting at the
+This is an early build seeded with pages 33-172 (4,472 entries starting at the
 letter ሀ) while the extraction process is being refined; more pages will be
 added over time.
 
